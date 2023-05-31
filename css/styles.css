@@ -1,0 +1,222 @@
+:root {
+    --primary: #CCB8D9;
+    --secondary: #FA3131;
+    --accent: #579ee4;
+    --text: hsl(0, 0%, 100%);
+    --light: #FFFFFF;
+    --background: #000000;
+    --footer-color: #292929;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: var(--background);
+    font-family: 'Crimson Text', serif;
+    color: var(--primary);
+    overflow-x: hidden;
+}
+
+text {
+    font-family: 'Crimson Text', serif;
+}
+
+h2 {
+    font-weight: 700;
+    color: var(--secondary);
+}
+
+h3 {
+    font-weight: 200;
+    color: var(--secondary);
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: var(--text);
+}
+
+.alignright {
+    text-align: end;
+}
+
+.flexHorizontal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexVertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caption {
+    text-align: center;
+    max-width: 400px;
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--light);
+}
+
+
+.pill {
+    padding: 1px 6px;
+    border: none;
+    white-space: nowrap;
+    text-decoration: none;
+    border-radius: 100px;
+    background: var(--secondary);
+    color: white;
+}
+
+.largepill {
+    padding: 6px 23px 4px 23px;
+    border: none;
+    white-space: nowrap;
+    text-decoration: none;
+    border-radius: 100px;
+    background: var(--secondary);
+    color: white;
+}
+
+.smallpill {
+    padding: 3px 6px 3px 6px;
+    border: none;
+    white-space: nowrap;
+    text-decoration: none;
+    border-radius: 30px;
+    background: var(--accent);
+    color: white;
+}
+
+
+.pill:hover,
+.largepill:hover{
+    background: var(--accent);
+    box-shadow: 0px 6px 13px 0 rgb(0, 0, 0, 0.2);
+    color: white;
+}
+
+nav {
+    z-index: 999;
+    position: fixed;
+    right: 5vh;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: end;
+}
+
+nav > a {
+    color: var(--light);
+    text-decoration: none;
+    font-size: 10px;
+    line-height: 18px;
+}
+
+nav > a > span {
+    margin-right: 10px;
+    color: var(--secondary);
+    opacity: 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+nav > a:hover,
+nav > a:hover > span {
+    transition: All 0.5s;
+    color: var(--secondary);
+    opacity: 1;
+}
+
+/*section css*/
+section {
+    width: 100vw;
+    overflow-x: hidden;
+    padding: 10vh 20vh 10vh 10vh;
+}
+
+
+#inicio {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 10vh;
+    background-image: url(../images/hustle4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#title {
+    height: 340px;
+    margin: 0 25px 25px -2vh;
+    position: relative;
+    transition: All 0.5s;
+}
+
+.title_desc {
+    width: 350px;
+    height: 250px;
+    overflow-y: visible;
+    margin: 10px 0 50px 0;
+    padding-left: 30px;
+}
+
+.old_cars {
+    width: 50vw;
+    margin-right: 10vh;
+}
+
+.engine {
+    margin-left: 10vh;
+}
+
+.engine > img {
+    width: 50vw;
+}
+
+
+#categoryselector,
+#attributeselector {
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 2px 12px 3px 12px;
+    background-image: none;
+}
+
+#attributeselector,
+#attributeby {
+    display: none;
+}
+
+#categoryselector:hover,
+#attributeselector:hover {
+    background: var(--secondary);
+    cursor: pointer;
+}
+
+
+footer {
+    padding: 10vh 20vh 10vh 10vh;
+    background: var(--footer-color);
+}
+
+footer > div > p {
+    color: white;
+}
+
+.linkreference{
+    color: var(--accent);
+    text-decoration: none;
+}

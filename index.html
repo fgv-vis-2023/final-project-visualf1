@@ -1,14 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+
 <head>
-  <title>Attempting Connection to API</title>
-  <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.7.1.min.js"></script>
-  <script src="https://d3js.org/d3.v4.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js" integrity="sha512-g2TeAWw5GPnX7z0Kn8nFbYfeHcvAu/tx6d6mrLe/90mkCxO+RcptyYpksUz35EO337F83bZwcmUyHiHamspkfg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script type="text/javascript" src="static/js/script.js"></script>
+    <meta charset="UTF-8">
+    <title>Visual F1</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&family=Stalemate&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--D3-->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+    <!--css-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/icon.png">
 </head>
+
 <body>
-    <input id="year" type="number" min="2018" max="2022" value="2018">
-    <div id="Race Names"></div>
-    <div id="viz"></div>
+
+    <nav>
+        <a href="#inicio"><span>Inicio</span><i class="fa fa-circle"></i></a>
+        <a href="#engine"><span>Engine</span><i class="fa fa-circle"></i></a>
+        <a href="#old_cars"><span>História</span><i class="fa fa-circle"></i></a>
+        <a href="#resto"><span>Resto da página</span><i class="fa fa-circle"></i></a>
+    </nav>
+
+    <section id="inicio">
+        <img id="title" src="images/title.svg">
+        <div class="title_desc">
+        </div>
+    </section>
+
+
+    <section id="engine">
+        <div class="flexHorizontal">
+            <h1>Aqui está um motor de F1</h1>
+                <p>Carro carro carro carro carro Carro carro</p>
+            <div class="flexVertical engine">
+                <img src="./images/engine.jpg">
+                <p class="caption">Engine.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="old_cars" style="padding-top: 10vh;">
+        <h1>O passado<br><br></h1>
+        <div class="flexHorizontal">
+            <img class="old_cars" src="images/old_cars.jpg">
+            <p>"A Fórmula 1 é considerada a categoria mais importante do automobilismo mundial. Por ela, passaram nomes, como: Ayrton Senna, Michael Schumacher, Alain Prost, Nelson Piquet, Juan Manuel Fangio, Niki Lauda, Jackie Stewart, Jack Brabham e tantos outros pilotos de renome. Como em todo esporte a motor, na F1 os resultados dependem da combinação entre piloto e equipamento.</p>
+        </div>
+    </section>
+
+
+    <section id="resto">
+        <h1 class="alignright">Resto da página, análises</h1>
+        <p class="alignright">
+            oiii<br><br><em>letra diferente</em><br>Letra assim<br><br></p>
+        <h3 class="alignright"><a href="graficos.html" class="largepill"><em>Outras coisas da página...</em></a></h3>
+        <br>
+        <h3 class="alignright"><a href="graficos.html" class="smallpill"><em>Outras coisas da página...</em></a></h3>
+    </section>
+
+    
+    <footer class="flexHorizontal">
+        <div>
+            <h1>Projeto Final de Visualização de Dados - FGV</h1>
+            <p><em>Ana Carolina Erthal, Felipe Lamarca, Guilherme de Melo</em></p>
+        </div>
+        <div>
+            <p style="width: 200px; text-align: right; color: #FFFFFF"> <a class="linkreference" href="https://www.f1-telemetry.net/information">F1 Telemetry</a><br><br>
+            </p>
+        </div>
+    </footer>
+    <!--bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!--personal js-->
+    <script src="./js/main.js"></script>
+    <script src="./js/scroll.js"></script>
 </body>
+
 </html>
