@@ -38,6 +38,18 @@ p {
     color: var(--text);
 }
 
+
+.tooltip {
+    position: absolute;
+    z-index: 999;
+    display: block;
+    padding: 5px;
+    background-color: #FA3131;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
 .alignright {
     text-align: end;
 }
@@ -181,6 +193,10 @@ section {
 
 .engine > img {
     width: 50vw;
+}
+
+.pista_historia > img {
+    width: 100vw;
 }
 
 
