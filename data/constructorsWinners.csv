@@ -1,272 +1,1315 @@
 year,constructorName,wins
-1950,Alfa Romeo,6
-1950,Kurtis Kraft,1
-1951,Alfa Romeo,10
-1951,Ferrari,3
-1951,Kurtis Kraft,2
-1952,Ferrari,10
-1952,Kuzma,1
-1953,Ferrari,17
-1953,Kurtis Kraft,3
-1953,Maserati,1
-1954,Ferrari,19
-1954,Kurtis Kraft,4
-1954,Maserati,3
-1954,Mercedes,4
-1955,Ferrari,20
-1955,Kurtis Kraft,5
-1955,Mercedes,9
-1956,Ferrari,25
-1956,Maserati,5
-1956,Watson,1
-1957,Epperly,1
-1957,Maserati,9
-1957,Vanwall,3
-1958,Cooper,2
-1958,Epperly,2
-1958,Ferrari,27
-1958,Vanwall,9
-1959,BRM,1
-1959,Cooper-Climax,5
-1959,Ferrari,29
-1959,Watson,2
-1960,Cooper-Climax,11
-1960,Ferrari,30
-1960,Team Lotus,2
-1960,Watson,3
-1961,Ferrari,35
-1961,Lotus-Climax,3
-1962,BRM,5
-1962,Cooper-Climax,12
-1962,Lotus-Climax,6
-1962,Porsche,1
-1963,BRM,7
-1963,Ferrari,36
-1963,Lotus-Climax,13
-1964,BRM,9
-1964,Brabham-Climax,2
-1964,Ferrari,39
-1964,Lotus-Climax,16
-1965,BRM,12
-1965,Honda,1
-1965,Lotus-Climax,22
-1966,BRM,13
-1966,Brabham-Repco,4
-1966,Cooper-Maserati,1
-1966,Ferrari,41
-1966,Lotus-BRM,1
-1967,Brabham-Repco,8
-1967,Cooper-Maserati,2
-1967,Eagle-Weslake,1
-1967,Honda,2
-1967,Lotus-Ford,4
-1968,Ferrari,42
-1968,Lotus-Ford,9
-1968,Matra-Ford,3
-1968,McLaren-Ford,3
-1969,Brabham-Ford,2
-1969,Lotus-Ford,11
-1969,Matra-Ford,9
-1969,McLaren-Ford,4
-1970,BRM,14
-1970,Brabham,1
-1970,Ferrari,46
-1970,March,1
-1970,Team Lotus,8
-1971,BRM,16
-1971,Ferrari,48
-1971,Tyrrell,7
-1972,BRM,17
-1972,Ferrari,49
-1972,McLaren,1
-1972,Team Lotus,13
-1972,Tyrrell,11
-1973,McLaren,4
-1973,Team Lotus,20
-1973,Tyrrell,16
-1974,Brabham,4
-1974,Ferrari,52
-1974,McLaren,8
-1974,Team Lotus,23
-1974,Tyrrell,18
-1975,Brabham,6
-1975,Ferrari,58
-1975,Hesketh,1
-1975,March,2
-1975,McLaren,11
-1975,Tyrrell,19
-1976,Ferrari,64
-1976,March,3
-1976,McLaren,17
-1976,Penske,1
-1976,Team Lotus,24
-1976,Tyrrell,20
-1977,Ferrari,68
-1977,Ligier,1
-1977,McLaren,20
-1977,Shadow,1
-1977,Team Lotus,29
-1977,Wolf,3
-1978,Brabham,8
-1978,Ferrari,73
-1978,Team Lotus,37
-1978,Tyrrell,21
-1979,Ferrari,79
-1979,Ligier,4
-1979,Renault,1
-1979,Williams,5
-1980,Brabham,11
-1980,Ligier,6
-1980,Renault,4
-1980,Williams,11
-1981,Brabham,14
-1981,Ferrari,81
-1981,Ligier,8
-1981,McLaren,21
-1981,Renault,7
-1981,Williams,15
-1982,Brabham,16
-1982,Ferrari,84
-1982,McLaren,25
-1982,Renault,11
-1982,Team Lotus,38
-1982,Tyrrell,22
-1982,Williams,16
-1983,Brabham,20
-1983,Ferrari,88
-1983,McLaren,26
-1983,Renault,15
-1983,Tyrrell,23
-1983,Williams,17
-1984,Brabham,22
-1984,Ferrari,89
-1984,McLaren,38
-1984,Williams,18
-1985,Brabham,23
-1985,Ferrari,91
-1985,McLaren,44
-1985,Team Lotus,41
-1985,Williams,22
-1986,Benetton,1
-1986,McLaren,48
-1986,Team Lotus,43
-1986,Williams,31
-1987,Ferrari,93
-1987,McLaren,51
-1987,Team Lotus,45
-1987,Williams,40
-1988,Ferrari,94
-1988,McLaren,66
-1989,Benetton,2
-1989,Ferrari,97
-1989,McLaren,76
-1989,Williams,42
-1990,Benetton,4
-1990,Ferrari,103
-1990,McLaren,82
-1990,Williams,44
-1991,Benetton,5
-1991,McLaren,90
-1991,Williams,51
-1992,Benetton,6
-1992,McLaren,95
-1992,Williams,61
-1993,Benetton,7
-1993,McLaren,100
-1993,Williams,71
-1994,Benetton,15
-1994,Ferrari,104
-1994,Williams,78
-1995,Benetton,26
-1995,Ferrari,105
-1995,Williams,83
-1996,Ferrari,108
-1996,Ligier,9
-1996,Williams,95
-1997,Benetton,27
-1997,Ferrari,113
-1997,McLaren,103
-1997,Williams,103
-1998,Ferrari,119
-1998,Jordan,1
-1998,McLaren,112
-1999,Ferrari,125
-1999,Jordan,3
-1999,McLaren,119
-1999,Stewart,1
-2000,Ferrari,135
-2000,McLaren,126
-2001,Ferrari,144
-2001,McLaren,130
-2001,Williams,107
-2002,Ferrari,159
-2002,McLaren,131
-2002,Williams,108
-2003,Ferrari,167
-2003,Jordan,4
-2003,McLaren,133
-2003,Renault,16
-2003,Williams,112
-2004,Ferrari,182
-2004,McLaren,134
-2004,Renault,17
-2004,Williams,113
-2005,Ferrari,183
-2005,McLaren,144
-2005,Renault,25
-2006,Ferrari,192
-2006,Honda,3
-2006,Renault,33
-2007,Ferrari,201
-2007,McLaren,152
-2008,BMW Sauber,1
-2008,Ferrari,209
-2008,McLaren,158
-2008,Renault,35
-2008,Toro Rosso,1
-2009,Brawn,8
-2009,Ferrari,210
-2009,McLaren,160
-2009,Red Bull,6
-2010,Ferrari,215
-2010,McLaren,165
-2010,Red Bull,15
-2011,Ferrari,216
-2011,McLaren,171
-2011,Red Bull,27
-2012,Ferrari,219
-2012,Lotus F1,1
-2012,McLaren,178
-2012,Mercedes,10
-2012,Red Bull,34
-2012,Williams,114
-2013,Ferrari,221
-2013,Lotus F1,2
-2013,Mercedes,13
-2013,Red Bull,47
-2014,Mercedes,29
-2014,Red Bull,50
-2015,Ferrari,224
-2015,Mercedes,45
-2016,Mercedes,64
-2016,Red Bull,52
-2017,Ferrari,229
-2017,Mercedes,76
-2017,Red Bull,55
-2018,Ferrari,235
-2018,Mercedes,87
-2018,Red Bull,59
-2019,Ferrari,238
-2019,Mercedes,102
-2019,Red Bull,62
-2020,AlphaTauri,1
-2020,Mercedes,115
-2020,Racing Point,1
-2020,Red Bull,64
-2021,Alpine F1 Team,1
-2021,McLaren,179
-2021,Mercedes,124
-2021,Red Bull,75
-2022,Ferrari,242
-2022,Mercedes,125
-2022,Red Bull,92
+1950,Alfa Romeo,1.0
+1951,Alfa Romeo,1.0
+1952,Alfa Romeo,1.0
+1953,Alfa Romeo,1.0
+1954,Alfa Romeo,1.0
+1955,Alfa Romeo,1.0
+1956,Alfa Romeo,1.0
+1957,Alfa Romeo,1.0
+1958,Alfa Romeo,1.0
+1959,Alfa Romeo,1.0
+1960,Alfa Romeo,1.0
+1961,Alfa Romeo,1.0
+1962,Alfa Romeo,1.0
+1963,Alfa Romeo,1.0
+1964,Alfa Romeo,1.0
+1965,Alfa Romeo,1.0
+1966,Alfa Romeo,1.0
+1967,Alfa Romeo,1.0
+1968,Alfa Romeo,1.0
+1969,Alfa Romeo,1.0
+1970,Alfa Romeo,1.0
+1971,Alfa Romeo,1.0
+1972,Alfa Romeo,1.0
+1973,Alfa Romeo,1.0
+1974,Alfa Romeo,1.0
+1975,Alfa Romeo,1.0
+1976,Alfa Romeo,1.0
+1977,Alfa Romeo,1.0
+1978,Alfa Romeo,1.0
+1979,Alfa Romeo,1.0
+1980,Alfa Romeo,1.0
+1981,Alfa Romeo,1.0
+1982,Alfa Romeo,1.0
+1983,Alfa Romeo,1.0
+1984,Alfa Romeo,1.0
+1985,Alfa Romeo,1.0
+1986,Alfa Romeo,1.0
+1987,Alfa Romeo,1.0
+1988,Alfa Romeo,1.0
+1989,Alfa Romeo,1.0
+1990,Alfa Romeo,1.0
+1991,Alfa Romeo,1.0
+1992,Alfa Romeo,1.0
+1993,Alfa Romeo,1.0
+1994,Alfa Romeo,1.0
+1995,Alfa Romeo,1.0
+1996,Alfa Romeo,1.0
+1997,Alfa Romeo,1.0
+1998,Alfa Romeo,1.0
+1999,Alfa Romeo,1.0
+2000,Alfa Romeo,1.0
+2001,Alfa Romeo,1.0
+2002,Alfa Romeo,1.0
+2003,Alfa Romeo,1.0
+2004,Alfa Romeo,1.0
+2005,Alfa Romeo,1.0
+2006,Alfa Romeo,1.0
+2007,Alfa Romeo,1.0
+2008,Alfa Romeo,1.0
+2009,Alfa Romeo,1.0
+2010,Alfa Romeo,1.0
+2011,Alfa Romeo,1.0
+2012,Alfa Romeo,1.0
+2013,Alfa Romeo,1.0
+2014,Alfa Romeo,1.0
+2015,Alfa Romeo,1.0
+2016,Alfa Romeo,1.0
+2017,Alfa Romeo,1.0
+2018,Alfa Romeo,1.0
+2019,Alfa Romeo,1.0
+2020,Alfa Romeo,1.0
+2021,Alfa Romeo,1.0
+2022,Alfa Romeo,1.0
+1950,Ferrari,0.0
+1951,Ferrari,1.0
+1952,Ferrari,2.0
+1953,Ferrari,3.0
+1954,Ferrari,4.0
+1955,Ferrari,4.0
+1956,Ferrari,5.0
+1957,Ferrari,5.0
+1958,Ferrari,6.0
+1959,Ferrari,6.0
+1960,Ferrari,6.0
+1961,Ferrari,7.0
+1962,Ferrari,7.0
+1963,Ferrari,7.0
+1964,Ferrari,7.0
+1965,Ferrari,7.0
+1966,Ferrari,7.0
+1967,Ferrari,7.0
+1968,Ferrari,7.0
+1969,Ferrari,7.0
+1970,Ferrari,8.0
+1971,Ferrari,8.0
+1972,Ferrari,8.0
+1973,Ferrari,8.0
+1974,Ferrari,9.0
+1975,Ferrari,10.0
+1976,Ferrari,11.0
+1977,Ferrari,12.0
+1978,Ferrari,12.0
+1979,Ferrari,13.0
+1980,Ferrari,13.0
+1981,Ferrari,13.0
+1982,Ferrari,14.0
+1983,Ferrari,15.0
+1984,Ferrari,15.0
+1985,Ferrari,15.0
+1986,Ferrari,15.0
+1987,Ferrari,15.0
+1988,Ferrari,15.0
+1989,Ferrari,15.0
+1990,Ferrari,15.0
+1991,Ferrari,15.0
+1992,Ferrari,15.0
+1993,Ferrari,15.0
+1994,Ferrari,15.0
+1995,Ferrari,15.0
+1996,Ferrari,15.0
+1997,Ferrari,15.0
+1998,Ferrari,15.0
+1999,Ferrari,16.0
+2000,Ferrari,17.0
+2001,Ferrari,18.0
+2002,Ferrari,19.0
+2003,Ferrari,20.0
+2004,Ferrari,21.0
+2005,Ferrari,21.0
+2006,Ferrari,21.0
+2007,Ferrari,21.0
+2008,Ferrari,22.0
+2009,Ferrari,22.0
+2010,Ferrari,22.0
+2011,Ferrari,22.0
+2012,Ferrari,22.0
+2013,Ferrari,22.0
+2014,Ferrari,22.0
+2015,Ferrari,22.0
+2016,Ferrari,22.0
+2017,Ferrari,22.0
+2018,Ferrari,22.0
+2019,Ferrari,22.0
+2020,Ferrari,22.0
+2021,Ferrari,22.0
+2022,Ferrari,22.0
+1950,Mercedes,0.0
+1951,Mercedes,0.0
+1952,Mercedes,0.0
+1953,Mercedes,0.0
+1954,Mercedes,0.0
+1955,Mercedes,1.0
+1956,Mercedes,1.0
+1957,Mercedes,1.0
+1958,Mercedes,1.0
+1959,Mercedes,1.0
+1960,Mercedes,1.0
+1961,Mercedes,1.0
+1962,Mercedes,1.0
+1963,Mercedes,1.0
+1964,Mercedes,1.0
+1965,Mercedes,1.0
+1966,Mercedes,1.0
+1967,Mercedes,1.0
+1968,Mercedes,1.0
+1969,Mercedes,1.0
+1970,Mercedes,1.0
+1971,Mercedes,1.0
+1972,Mercedes,1.0
+1973,Mercedes,1.0
+1974,Mercedes,1.0
+1975,Mercedes,1.0
+1976,Mercedes,1.0
+1977,Mercedes,1.0
+1978,Mercedes,1.0
+1979,Mercedes,1.0
+1980,Mercedes,1.0
+1981,Mercedes,1.0
+1982,Mercedes,1.0
+1983,Mercedes,1.0
+1984,Mercedes,1.0
+1985,Mercedes,1.0
+1986,Mercedes,1.0
+1987,Mercedes,1.0
+1988,Mercedes,1.0
+1989,Mercedes,1.0
+1990,Mercedes,1.0
+1991,Mercedes,1.0
+1992,Mercedes,1.0
+1993,Mercedes,1.0
+1994,Mercedes,1.0
+1995,Mercedes,1.0
+1996,Mercedes,1.0
+1997,Mercedes,1.0
+1998,Mercedes,1.0
+1999,Mercedes,1.0
+2000,Mercedes,1.0
+2001,Mercedes,1.0
+2002,Mercedes,1.0
+2003,Mercedes,1.0
+2004,Mercedes,1.0
+2005,Mercedes,1.0
+2006,Mercedes,1.0
+2007,Mercedes,1.0
+2008,Mercedes,1.0
+2009,Mercedes,1.0
+2010,Mercedes,1.0
+2011,Mercedes,1.0
+2012,Mercedes,1.0
+2013,Mercedes,1.0
+2014,Mercedes,2.0
+2015,Mercedes,3.0
+2016,Mercedes,4.0
+2017,Mercedes,5.0
+2018,Mercedes,6.0
+2019,Mercedes,7.0
+2020,Mercedes,8.0
+2021,Mercedes,9.0
+2022,Mercedes,9.0
+1950,Maserati,0.0
+1951,Maserati,0.0
+1952,Maserati,0.0
+1953,Maserati,0.0
+1954,Maserati,0.0
+1955,Maserati,0.0
+1956,Maserati,0.0
+1957,Maserati,1.0
+1958,Maserati,1.0
+1959,Maserati,1.0
+1960,Maserati,1.0
+1961,Maserati,1.0
+1962,Maserati,1.0
+1963,Maserati,1.0
+1964,Maserati,1.0
+1965,Maserati,1.0
+1966,Maserati,1.0
+1967,Maserati,1.0
+1968,Maserati,1.0
+1969,Maserati,1.0
+1970,Maserati,1.0
+1971,Maserati,1.0
+1972,Maserati,1.0
+1973,Maserati,1.0
+1974,Maserati,1.0
+1975,Maserati,1.0
+1976,Maserati,1.0
+1977,Maserati,1.0
+1978,Maserati,1.0
+1979,Maserati,1.0
+1980,Maserati,1.0
+1981,Maserati,1.0
+1982,Maserati,1.0
+1983,Maserati,1.0
+1984,Maserati,1.0
+1985,Maserati,1.0
+1986,Maserati,1.0
+1987,Maserati,1.0
+1988,Maserati,1.0
+1989,Maserati,1.0
+1990,Maserati,1.0
+1991,Maserati,1.0
+1992,Maserati,1.0
+1993,Maserati,1.0
+1994,Maserati,1.0
+1995,Maserati,1.0
+1996,Maserati,1.0
+1997,Maserati,1.0
+1998,Maserati,1.0
+1999,Maserati,1.0
+2000,Maserati,1.0
+2001,Maserati,1.0
+2002,Maserati,1.0
+2003,Maserati,1.0
+2004,Maserati,1.0
+2005,Maserati,1.0
+2006,Maserati,1.0
+2007,Maserati,1.0
+2008,Maserati,1.0
+2009,Maserati,1.0
+2010,Maserati,1.0
+2011,Maserati,1.0
+2012,Maserati,1.0
+2013,Maserati,1.0
+2014,Maserati,1.0
+2015,Maserati,1.0
+2016,Maserati,1.0
+2017,Maserati,1.0
+2018,Maserati,1.0
+2019,Maserati,1.0
+2020,Maserati,1.0
+2021,Maserati,1.0
+2022,Maserati,1.0
+1950,Cooper-Climax,0.0
+1951,Cooper-Climax,0.0
+1952,Cooper-Climax,0.0
+1953,Cooper-Climax,0.0
+1954,Cooper-Climax,0.0
+1955,Cooper-Climax,0.0
+1956,Cooper-Climax,0.0
+1957,Cooper-Climax,0.0
+1958,Cooper-Climax,0.0
+1959,Cooper-Climax,1.0
+1960,Cooper-Climax,2.0
+1961,Cooper-Climax,2.0
+1962,Cooper-Climax,2.0
+1963,Cooper-Climax,2.0
+1964,Cooper-Climax,2.0
+1965,Cooper-Climax,2.0
+1966,Cooper-Climax,2.0
+1967,Cooper-Climax,2.0
+1968,Cooper-Climax,2.0
+1969,Cooper-Climax,2.0
+1970,Cooper-Climax,2.0
+1971,Cooper-Climax,2.0
+1972,Cooper-Climax,2.0
+1973,Cooper-Climax,2.0
+1974,Cooper-Climax,2.0
+1975,Cooper-Climax,2.0
+1976,Cooper-Climax,2.0
+1977,Cooper-Climax,2.0
+1978,Cooper-Climax,2.0
+1979,Cooper-Climax,2.0
+1980,Cooper-Climax,2.0
+1981,Cooper-Climax,2.0
+1982,Cooper-Climax,2.0
+1983,Cooper-Climax,2.0
+1984,Cooper-Climax,2.0
+1985,Cooper-Climax,2.0
+1986,Cooper-Climax,2.0
+1987,Cooper-Climax,2.0
+1988,Cooper-Climax,2.0
+1989,Cooper-Climax,2.0
+1990,Cooper-Climax,2.0
+1991,Cooper-Climax,2.0
+1992,Cooper-Climax,2.0
+1993,Cooper-Climax,2.0
+1994,Cooper-Climax,2.0
+1995,Cooper-Climax,2.0
+1996,Cooper-Climax,2.0
+1997,Cooper-Climax,2.0
+1998,Cooper-Climax,2.0
+1999,Cooper-Climax,2.0
+2000,Cooper-Climax,2.0
+2001,Cooper-Climax,2.0
+2002,Cooper-Climax,2.0
+2003,Cooper-Climax,2.0
+2004,Cooper-Climax,2.0
+2005,Cooper-Climax,2.0
+2006,Cooper-Climax,2.0
+2007,Cooper-Climax,2.0
+2008,Cooper-Climax,2.0
+2009,Cooper-Climax,2.0
+2010,Cooper-Climax,2.0
+2011,Cooper-Climax,2.0
+2012,Cooper-Climax,2.0
+2013,Cooper-Climax,2.0
+2014,Cooper-Climax,2.0
+2015,Cooper-Climax,2.0
+2016,Cooper-Climax,2.0
+2017,Cooper-Climax,2.0
+2018,Cooper-Climax,2.0
+2019,Cooper-Climax,2.0
+2020,Cooper-Climax,2.0
+2021,Cooper-Climax,2.0
+2022,Cooper-Climax,2.0
+1950,BRM,0.0
+1951,BRM,0.0
+1952,BRM,0.0
+1953,BRM,0.0
+1954,BRM,0.0
+1955,BRM,0.0
+1956,BRM,0.0
+1957,BRM,0.0
+1958,BRM,0.0
+1959,BRM,0.0
+1960,BRM,0.0
+1961,BRM,0.0
+1962,BRM,1.0
+1963,BRM,1.0
+1964,BRM,2.0
+1965,BRM,3.0
+1966,BRM,3.0
+1967,BRM,3.0
+1968,BRM,3.0
+1969,BRM,3.0
+1970,BRM,3.0
+1971,BRM,3.0
+1972,BRM,3.0
+1973,BRM,3.0
+1974,BRM,3.0
+1975,BRM,3.0
+1976,BRM,3.0
+1977,BRM,3.0
+1978,BRM,3.0
+1979,BRM,3.0
+1980,BRM,3.0
+1981,BRM,3.0
+1982,BRM,3.0
+1983,BRM,3.0
+1984,BRM,3.0
+1985,BRM,3.0
+1986,BRM,3.0
+1987,BRM,3.0
+1988,BRM,3.0
+1989,BRM,3.0
+1990,BRM,3.0
+1991,BRM,3.0
+1992,BRM,3.0
+1993,BRM,3.0
+1994,BRM,3.0
+1995,BRM,3.0
+1996,BRM,3.0
+1997,BRM,3.0
+1998,BRM,3.0
+1999,BRM,3.0
+2000,BRM,3.0
+2001,BRM,3.0
+2002,BRM,3.0
+2003,BRM,3.0
+2004,BRM,3.0
+2005,BRM,3.0
+2006,BRM,3.0
+2007,BRM,3.0
+2008,BRM,3.0
+2009,BRM,3.0
+2010,BRM,3.0
+2011,BRM,3.0
+2012,BRM,3.0
+2013,BRM,3.0
+2014,BRM,3.0
+2015,BRM,3.0
+2016,BRM,3.0
+2017,BRM,3.0
+2018,BRM,3.0
+2019,BRM,3.0
+2020,BRM,3.0
+2021,BRM,3.0
+2022,BRM,3.0
+1950,Lotus-Climax,0.0
+1951,Lotus-Climax,0.0
+1952,Lotus-Climax,0.0
+1953,Lotus-Climax,0.0
+1954,Lotus-Climax,0.0
+1955,Lotus-Climax,0.0
+1956,Lotus-Climax,0.0
+1957,Lotus-Climax,0.0
+1958,Lotus-Climax,0.0
+1959,Lotus-Climax,0.0
+1960,Lotus-Climax,0.0
+1961,Lotus-Climax,0.0
+1962,Lotus-Climax,0.0
+1963,Lotus-Climax,1.0
+1964,Lotus-Climax,1.0
+1965,Lotus-Climax,1.0
+1966,Lotus-Climax,1.0
+1967,Lotus-Climax,1.0
+1968,Lotus-Climax,1.0
+1969,Lotus-Climax,1.0
+1970,Lotus-Climax,1.0
+1971,Lotus-Climax,1.0
+1972,Lotus-Climax,1.0
+1973,Lotus-Climax,1.0
+1974,Lotus-Climax,1.0
+1975,Lotus-Climax,1.0
+1976,Lotus-Climax,1.0
+1977,Lotus-Climax,1.0
+1978,Lotus-Climax,1.0
+1979,Lotus-Climax,1.0
+1980,Lotus-Climax,1.0
+1981,Lotus-Climax,1.0
+1982,Lotus-Climax,1.0
+1983,Lotus-Climax,1.0
+1984,Lotus-Climax,1.0
+1985,Lotus-Climax,1.0
+1986,Lotus-Climax,1.0
+1987,Lotus-Climax,1.0
+1988,Lotus-Climax,1.0
+1989,Lotus-Climax,1.0
+1990,Lotus-Climax,1.0
+1991,Lotus-Climax,1.0
+1992,Lotus-Climax,1.0
+1993,Lotus-Climax,1.0
+1994,Lotus-Climax,1.0
+1995,Lotus-Climax,1.0
+1996,Lotus-Climax,1.0
+1997,Lotus-Climax,1.0
+1998,Lotus-Climax,1.0
+1999,Lotus-Climax,1.0
+2000,Lotus-Climax,1.0
+2001,Lotus-Climax,1.0
+2002,Lotus-Climax,1.0
+2003,Lotus-Climax,1.0
+2004,Lotus-Climax,1.0
+2005,Lotus-Climax,1.0
+2006,Lotus-Climax,1.0
+2007,Lotus-Climax,1.0
+2008,Lotus-Climax,1.0
+2009,Lotus-Climax,1.0
+2010,Lotus-Climax,1.0
+2011,Lotus-Climax,1.0
+2012,Lotus-Climax,1.0
+2013,Lotus-Climax,1.0
+2014,Lotus-Climax,1.0
+2015,Lotus-Climax,1.0
+2016,Lotus-Climax,1.0
+2017,Lotus-Climax,1.0
+2018,Lotus-Climax,1.0
+2019,Lotus-Climax,1.0
+2020,Lotus-Climax,1.0
+2021,Lotus-Climax,1.0
+2022,Lotus-Climax,1.0
+1950,Brabham-Repco,0.0
+1951,Brabham-Repco,0.0
+1952,Brabham-Repco,0.0
+1953,Brabham-Repco,0.0
+1954,Brabham-Repco,0.0
+1955,Brabham-Repco,0.0
+1956,Brabham-Repco,0.0
+1957,Brabham-Repco,0.0
+1958,Brabham-Repco,0.0
+1959,Brabham-Repco,0.0
+1960,Brabham-Repco,0.0
+1961,Brabham-Repco,0.0
+1962,Brabham-Repco,0.0
+1963,Brabham-Repco,0.0
+1964,Brabham-Repco,0.0
+1965,Brabham-Repco,0.0
+1966,Brabham-Repco,1.0
+1967,Brabham-Repco,2.0
+1968,Brabham-Repco,2.0
+1969,Brabham-Repco,2.0
+1970,Brabham-Repco,2.0
+1971,Brabham-Repco,2.0
+1972,Brabham-Repco,2.0
+1973,Brabham-Repco,2.0
+1974,Brabham-Repco,2.0
+1975,Brabham-Repco,2.0
+1976,Brabham-Repco,2.0
+1977,Brabham-Repco,2.0
+1978,Brabham-Repco,2.0
+1979,Brabham-Repco,2.0
+1980,Brabham-Repco,2.0
+1981,Brabham-Repco,2.0
+1982,Brabham-Repco,2.0
+1983,Brabham-Repco,2.0
+1984,Brabham-Repco,2.0
+1985,Brabham-Repco,2.0
+1986,Brabham-Repco,2.0
+1987,Brabham-Repco,2.0
+1988,Brabham-Repco,2.0
+1989,Brabham-Repco,2.0
+1990,Brabham-Repco,2.0
+1991,Brabham-Repco,2.0
+1992,Brabham-Repco,2.0
+1993,Brabham-Repco,2.0
+1994,Brabham-Repco,2.0
+1995,Brabham-Repco,2.0
+1996,Brabham-Repco,2.0
+1997,Brabham-Repco,2.0
+1998,Brabham-Repco,2.0
+1999,Brabham-Repco,2.0
+2000,Brabham-Repco,2.0
+2001,Brabham-Repco,2.0
+2002,Brabham-Repco,2.0
+2003,Brabham-Repco,2.0
+2004,Brabham-Repco,2.0
+2005,Brabham-Repco,2.0
+2006,Brabham-Repco,2.0
+2007,Brabham-Repco,2.0
+2008,Brabham-Repco,2.0
+2009,Brabham-Repco,2.0
+2010,Brabham-Repco,2.0
+2011,Brabham-Repco,2.0
+2012,Brabham-Repco,2.0
+2013,Brabham-Repco,2.0
+2014,Brabham-Repco,2.0
+2015,Brabham-Repco,2.0
+2016,Brabham-Repco,2.0
+2017,Brabham-Repco,2.0
+2018,Brabham-Repco,2.0
+2019,Brabham-Repco,2.0
+2020,Brabham-Repco,2.0
+2021,Brabham-Repco,2.0
+2022,Brabham-Repco,2.0
+1950,Lotus-Ford,0.0
+1951,Lotus-Ford,0.0
+1952,Lotus-Ford,0.0
+1953,Lotus-Ford,0.0
+1954,Lotus-Ford,0.0
+1955,Lotus-Ford,0.0
+1956,Lotus-Ford,0.0
+1957,Lotus-Ford,0.0
+1958,Lotus-Ford,0.0
+1959,Lotus-Ford,0.0
+1960,Lotus-Ford,0.0
+1961,Lotus-Ford,0.0
+1962,Lotus-Ford,0.0
+1963,Lotus-Ford,0.0
+1964,Lotus-Ford,0.0
+1965,Lotus-Ford,0.0
+1966,Lotus-Ford,0.0
+1967,Lotus-Ford,0.0
+1968,Lotus-Ford,1.0
+1969,Lotus-Ford,1.0
+1970,Lotus-Ford,1.0
+1971,Lotus-Ford,1.0
+1972,Lotus-Ford,1.0
+1973,Lotus-Ford,1.0
+1974,Lotus-Ford,1.0
+1975,Lotus-Ford,1.0
+1976,Lotus-Ford,1.0
+1977,Lotus-Ford,1.0
+1978,Lotus-Ford,1.0
+1979,Lotus-Ford,1.0
+1980,Lotus-Ford,1.0
+1981,Lotus-Ford,1.0
+1982,Lotus-Ford,1.0
+1983,Lotus-Ford,1.0
+1984,Lotus-Ford,1.0
+1985,Lotus-Ford,1.0
+1986,Lotus-Ford,1.0
+1987,Lotus-Ford,1.0
+1988,Lotus-Ford,1.0
+1989,Lotus-Ford,1.0
+1990,Lotus-Ford,1.0
+1991,Lotus-Ford,1.0
+1992,Lotus-Ford,1.0
+1993,Lotus-Ford,1.0
+1994,Lotus-Ford,1.0
+1995,Lotus-Ford,1.0
+1996,Lotus-Ford,1.0
+1997,Lotus-Ford,1.0
+1998,Lotus-Ford,1.0
+1999,Lotus-Ford,1.0
+2000,Lotus-Ford,1.0
+2001,Lotus-Ford,1.0
+2002,Lotus-Ford,1.0
+2003,Lotus-Ford,1.0
+2004,Lotus-Ford,1.0
+2005,Lotus-Ford,1.0
+2006,Lotus-Ford,1.0
+2007,Lotus-Ford,1.0
+2008,Lotus-Ford,1.0
+2009,Lotus-Ford,1.0
+2010,Lotus-Ford,1.0
+2011,Lotus-Ford,1.0
+2012,Lotus-Ford,1.0
+2013,Lotus-Ford,1.0
+2014,Lotus-Ford,1.0
+2015,Lotus-Ford,1.0
+2016,Lotus-Ford,1.0
+2017,Lotus-Ford,1.0
+2018,Lotus-Ford,1.0
+2019,Lotus-Ford,1.0
+2020,Lotus-Ford,1.0
+2021,Lotus-Ford,1.0
+2022,Lotus-Ford,1.0
+1950,Matra-Ford,0.0
+1951,Matra-Ford,0.0
+1952,Matra-Ford,0.0
+1953,Matra-Ford,0.0
+1954,Matra-Ford,0.0
+1955,Matra-Ford,0.0
+1956,Matra-Ford,0.0
+1957,Matra-Ford,0.0
+1958,Matra-Ford,0.0
+1959,Matra-Ford,0.0
+1960,Matra-Ford,0.0
+1961,Matra-Ford,0.0
+1962,Matra-Ford,0.0
+1963,Matra-Ford,0.0
+1964,Matra-Ford,0.0
+1965,Matra-Ford,0.0
+1966,Matra-Ford,0.0
+1967,Matra-Ford,0.0
+1968,Matra-Ford,0.0
+1969,Matra-Ford,1.0
+1970,Matra-Ford,1.0
+1971,Matra-Ford,1.0
+1972,Matra-Ford,1.0
+1973,Matra-Ford,1.0
+1974,Matra-Ford,1.0
+1975,Matra-Ford,1.0
+1976,Matra-Ford,1.0
+1977,Matra-Ford,1.0
+1978,Matra-Ford,1.0
+1979,Matra-Ford,1.0
+1980,Matra-Ford,1.0
+1981,Matra-Ford,1.0
+1982,Matra-Ford,1.0
+1983,Matra-Ford,1.0
+1984,Matra-Ford,1.0
+1985,Matra-Ford,1.0
+1986,Matra-Ford,1.0
+1987,Matra-Ford,1.0
+1988,Matra-Ford,1.0
+1989,Matra-Ford,1.0
+1990,Matra-Ford,1.0
+1991,Matra-Ford,1.0
+1992,Matra-Ford,1.0
+1993,Matra-Ford,1.0
+1994,Matra-Ford,1.0
+1995,Matra-Ford,1.0
+1996,Matra-Ford,1.0
+1997,Matra-Ford,1.0
+1998,Matra-Ford,1.0
+1999,Matra-Ford,1.0
+2000,Matra-Ford,1.0
+2001,Matra-Ford,1.0
+2002,Matra-Ford,1.0
+2003,Matra-Ford,1.0
+2004,Matra-Ford,1.0
+2005,Matra-Ford,1.0
+2006,Matra-Ford,1.0
+2007,Matra-Ford,1.0
+2008,Matra-Ford,1.0
+2009,Matra-Ford,1.0
+2010,Matra-Ford,1.0
+2011,Matra-Ford,1.0
+2012,Matra-Ford,1.0
+2013,Matra-Ford,1.0
+2014,Matra-Ford,1.0
+2015,Matra-Ford,1.0
+2016,Matra-Ford,1.0
+2017,Matra-Ford,1.0
+2018,Matra-Ford,1.0
+2019,Matra-Ford,1.0
+2020,Matra-Ford,1.0
+2021,Matra-Ford,1.0
+2022,Matra-Ford,1.0
+1950,Tyrrell,0.0
+1951,Tyrrell,0.0
+1952,Tyrrell,0.0
+1953,Tyrrell,0.0
+1954,Tyrrell,0.0
+1955,Tyrrell,0.0
+1956,Tyrrell,0.0
+1957,Tyrrell,0.0
+1958,Tyrrell,0.0
+1959,Tyrrell,0.0
+1960,Tyrrell,0.0
+1961,Tyrrell,0.0
+1962,Tyrrell,0.0
+1963,Tyrrell,0.0
+1964,Tyrrell,0.0
+1965,Tyrrell,0.0
+1966,Tyrrell,0.0
+1967,Tyrrell,0.0
+1968,Tyrrell,0.0
+1969,Tyrrell,0.0
+1970,Tyrrell,0.0
+1971,Tyrrell,1.0
+1972,Tyrrell,1.0
+1973,Tyrrell,2.0
+1974,Tyrrell,2.0
+1975,Tyrrell,2.0
+1976,Tyrrell,2.0
+1977,Tyrrell,2.0
+1978,Tyrrell,2.0
+1979,Tyrrell,2.0
+1980,Tyrrell,2.0
+1981,Tyrrell,2.0
+1982,Tyrrell,2.0
+1983,Tyrrell,2.0
+1984,Tyrrell,2.0
+1985,Tyrrell,2.0
+1986,Tyrrell,2.0
+1987,Tyrrell,2.0
+1988,Tyrrell,2.0
+1989,Tyrrell,2.0
+1990,Tyrrell,2.0
+1991,Tyrrell,2.0
+1992,Tyrrell,2.0
+1993,Tyrrell,2.0
+1994,Tyrrell,2.0
+1995,Tyrrell,2.0
+1996,Tyrrell,2.0
+1997,Tyrrell,2.0
+1998,Tyrrell,2.0
+1999,Tyrrell,2.0
+2000,Tyrrell,2.0
+2001,Tyrrell,2.0
+2002,Tyrrell,2.0
+2003,Tyrrell,2.0
+2004,Tyrrell,2.0
+2005,Tyrrell,2.0
+2006,Tyrrell,2.0
+2007,Tyrrell,2.0
+2008,Tyrrell,2.0
+2009,Tyrrell,2.0
+2010,Tyrrell,2.0
+2011,Tyrrell,2.0
+2012,Tyrrell,2.0
+2013,Tyrrell,2.0
+2014,Tyrrell,2.0
+2015,Tyrrell,2.0
+2016,Tyrrell,2.0
+2017,Tyrrell,2.0
+2018,Tyrrell,2.0
+2019,Tyrrell,2.0
+2020,Tyrrell,2.0
+2021,Tyrrell,2.0
+2022,Tyrrell,2.0
+1950,McLaren,0.0
+1951,McLaren,0.0
+1952,McLaren,0.0
+1953,McLaren,0.0
+1954,McLaren,0.0
+1955,McLaren,0.0
+1956,McLaren,0.0
+1957,McLaren,0.0
+1958,McLaren,0.0
+1959,McLaren,0.0
+1960,McLaren,0.0
+1961,McLaren,0.0
+1962,McLaren,0.0
+1963,McLaren,0.0
+1964,McLaren,0.0
+1965,McLaren,0.0
+1966,McLaren,0.0
+1967,McLaren,0.0
+1968,McLaren,0.0
+1969,McLaren,0.0
+1970,McLaren,0.0
+1971,McLaren,0.0
+1972,McLaren,1.0
+1973,McLaren,1.0
+1974,McLaren,1.0
+1975,McLaren,1.0
+1976,McLaren,1.0
+1977,McLaren,1.0
+1978,McLaren,1.0
+1979,McLaren,1.0
+1980,McLaren,1.0
+1981,McLaren,1.0
+1982,McLaren,1.0
+1983,McLaren,1.0
+1984,McLaren,2.0
+1985,McLaren,3.0
+1986,McLaren,3.0
+1987,McLaren,3.0
+1988,McLaren,4.0
+1989,McLaren,5.0
+1990,McLaren,6.0
+1991,McLaren,7.0
+1992,McLaren,7.0
+1993,McLaren,7.0
+1994,McLaren,7.0
+1995,McLaren,7.0
+1996,McLaren,7.0
+1997,McLaren,7.0
+1998,McLaren,8.0
+1999,McLaren,8.0
+2000,McLaren,8.0
+2001,McLaren,8.0
+2002,McLaren,8.0
+2003,McLaren,8.0
+2004,McLaren,8.0
+2005,McLaren,8.0
+2006,McLaren,8.0
+2007,McLaren,9.0
+2008,McLaren,9.0
+2009,McLaren,9.0
+2010,McLaren,9.0
+2011,McLaren,9.0
+2012,McLaren,9.0
+2013,McLaren,9.0
+2014,McLaren,9.0
+2015,McLaren,9.0
+2016,McLaren,9.0
+2017,McLaren,9.0
+2018,McLaren,9.0
+2019,McLaren,9.0
+2020,McLaren,9.0
+2021,McLaren,9.0
+2022,McLaren,9.0
+1950,Team Lotus,0.0
+1951,Team Lotus,0.0
+1952,Team Lotus,0.0
+1953,Team Lotus,0.0
+1954,Team Lotus,0.0
+1955,Team Lotus,0.0
+1956,Team Lotus,0.0
+1957,Team Lotus,0.0
+1958,Team Lotus,0.0
+1959,Team Lotus,0.0
+1960,Team Lotus,0.0
+1961,Team Lotus,0.0
+1962,Team Lotus,0.0
+1963,Team Lotus,0.0
+1964,Team Lotus,0.0
+1965,Team Lotus,0.0
+1966,Team Lotus,0.0
+1967,Team Lotus,0.0
+1968,Team Lotus,0.0
+1969,Team Lotus,0.0
+1970,Team Lotus,0.0
+1971,Team Lotus,0.0
+1972,Team Lotus,0.0
+1973,Team Lotus,0.0
+1974,Team Lotus,0.0
+1975,Team Lotus,0.0
+1976,Team Lotus,0.0
+1977,Team Lotus,0.0
+1978,Team Lotus,1.0
+1979,Team Lotus,1.0
+1980,Team Lotus,1.0
+1981,Team Lotus,1.0
+1982,Team Lotus,1.0
+1983,Team Lotus,1.0
+1984,Team Lotus,1.0
+1985,Team Lotus,1.0
+1986,Team Lotus,1.0
+1987,Team Lotus,1.0
+1988,Team Lotus,1.0
+1989,Team Lotus,1.0
+1990,Team Lotus,1.0
+1991,Team Lotus,1.0
+1992,Team Lotus,1.0
+1993,Team Lotus,1.0
+1994,Team Lotus,1.0
+1995,Team Lotus,1.0
+1996,Team Lotus,1.0
+1997,Team Lotus,1.0
+1998,Team Lotus,1.0
+1999,Team Lotus,1.0
+2000,Team Lotus,1.0
+2001,Team Lotus,1.0
+2002,Team Lotus,1.0
+2003,Team Lotus,1.0
+2004,Team Lotus,1.0
+2005,Team Lotus,1.0
+2006,Team Lotus,1.0
+2007,Team Lotus,1.0
+2008,Team Lotus,1.0
+2009,Team Lotus,1.0
+2010,Team Lotus,1.0
+2011,Team Lotus,1.0
+2012,Team Lotus,1.0
+2013,Team Lotus,1.0
+2014,Team Lotus,1.0
+2015,Team Lotus,1.0
+2016,Team Lotus,1.0
+2017,Team Lotus,1.0
+2018,Team Lotus,1.0
+2019,Team Lotus,1.0
+2020,Team Lotus,1.0
+2021,Team Lotus,1.0
+2022,Team Lotus,1.0
+1950,Williams,0.0
+1951,Williams,0.0
+1952,Williams,0.0
+1953,Williams,0.0
+1954,Williams,0.0
+1955,Williams,0.0
+1956,Williams,0.0
+1957,Williams,0.0
+1958,Williams,0.0
+1959,Williams,0.0
+1960,Williams,0.0
+1961,Williams,0.0
+1962,Williams,0.0
+1963,Williams,0.0
+1964,Williams,0.0
+1965,Williams,0.0
+1966,Williams,0.0
+1967,Williams,0.0
+1968,Williams,0.0
+1969,Williams,0.0
+1970,Williams,0.0
+1971,Williams,0.0
+1972,Williams,0.0
+1973,Williams,0.0
+1974,Williams,0.0
+1975,Williams,0.0
+1976,Williams,0.0
+1977,Williams,0.0
+1978,Williams,0.0
+1979,Williams,0.0
+1980,Williams,1.0
+1981,Williams,2.0
+1982,Williams,2.0
+1983,Williams,2.0
+1984,Williams,2.0
+1985,Williams,2.0
+1986,Williams,3.0
+1987,Williams,4.0
+1988,Williams,4.0
+1989,Williams,4.0
+1990,Williams,4.0
+1991,Williams,4.0
+1992,Williams,5.0
+1993,Williams,6.0
+1994,Williams,7.0
+1995,Williams,7.0
+1996,Williams,8.0
+1997,Williams,9.0
+1998,Williams,9.0
+1999,Williams,9.0
+2000,Williams,9.0
+2001,Williams,9.0
+2002,Williams,9.0
+2003,Williams,9.0
+2004,Williams,9.0
+2005,Williams,9.0
+2006,Williams,9.0
+2007,Williams,9.0
+2008,Williams,9.0
+2009,Williams,9.0
+2010,Williams,9.0
+2011,Williams,9.0
+2012,Williams,9.0
+2013,Williams,9.0
+2014,Williams,9.0
+2015,Williams,9.0
+2016,Williams,9.0
+2017,Williams,9.0
+2018,Williams,9.0
+2019,Williams,9.0
+2020,Williams,9.0
+2021,Williams,9.0
+2022,Williams,9.0
+1950,Benetton,0.0
+1951,Benetton,0.0
+1952,Benetton,0.0
+1953,Benetton,0.0
+1954,Benetton,0.0
+1955,Benetton,0.0
+1956,Benetton,0.0
+1957,Benetton,0.0
+1958,Benetton,0.0
+1959,Benetton,0.0
+1960,Benetton,0.0
+1961,Benetton,0.0
+1962,Benetton,0.0
+1963,Benetton,0.0
+1964,Benetton,0.0
+1965,Benetton,0.0
+1966,Benetton,0.0
+1967,Benetton,0.0
+1968,Benetton,0.0
+1969,Benetton,0.0
+1970,Benetton,0.0
+1971,Benetton,0.0
+1972,Benetton,0.0
+1973,Benetton,0.0
+1974,Benetton,0.0
+1975,Benetton,0.0
+1976,Benetton,0.0
+1977,Benetton,0.0
+1978,Benetton,0.0
+1979,Benetton,0.0
+1980,Benetton,0.0
+1981,Benetton,0.0
+1982,Benetton,0.0
+1983,Benetton,0.0
+1984,Benetton,0.0
+1985,Benetton,0.0
+1986,Benetton,0.0
+1987,Benetton,0.0
+1988,Benetton,0.0
+1989,Benetton,0.0
+1990,Benetton,0.0
+1991,Benetton,0.0
+1992,Benetton,0.0
+1993,Benetton,0.0
+1994,Benetton,0.0
+1995,Benetton,1.0
+1996,Benetton,1.0
+1997,Benetton,1.0
+1998,Benetton,1.0
+1999,Benetton,1.0
+2000,Benetton,1.0
+2001,Benetton,1.0
+2002,Benetton,1.0
+2003,Benetton,1.0
+2004,Benetton,1.0
+2005,Benetton,1.0
+2006,Benetton,1.0
+2007,Benetton,1.0
+2008,Benetton,1.0
+2009,Benetton,1.0
+2010,Benetton,1.0
+2011,Benetton,1.0
+2012,Benetton,1.0
+2013,Benetton,1.0
+2014,Benetton,1.0
+2015,Benetton,1.0
+2016,Benetton,1.0
+2017,Benetton,1.0
+2018,Benetton,1.0
+2019,Benetton,1.0
+2020,Benetton,1.0
+2021,Benetton,1.0
+2022,Benetton,1.0
+1950,Renault,0.0
+1951,Renault,0.0
+1952,Renault,0.0
+1953,Renault,0.0
+1954,Renault,0.0
+1955,Renault,0.0
+1956,Renault,0.0
+1957,Renault,0.0
+1958,Renault,0.0
+1959,Renault,0.0
+1960,Renault,0.0
+1961,Renault,0.0
+1962,Renault,0.0
+1963,Renault,0.0
+1964,Renault,0.0
+1965,Renault,0.0
+1966,Renault,0.0
+1967,Renault,0.0
+1968,Renault,0.0
+1969,Renault,0.0
+1970,Renault,0.0
+1971,Renault,0.0
+1972,Renault,0.0
+1973,Renault,0.0
+1974,Renault,0.0
+1975,Renault,0.0
+1976,Renault,0.0
+1977,Renault,0.0
+1978,Renault,0.0
+1979,Renault,0.0
+1980,Renault,0.0
+1981,Renault,0.0
+1982,Renault,0.0
+1983,Renault,0.0
+1984,Renault,0.0
+1985,Renault,0.0
+1986,Renault,0.0
+1987,Renault,0.0
+1988,Renault,0.0
+1989,Renault,0.0
+1990,Renault,0.0
+1991,Renault,0.0
+1992,Renault,0.0
+1993,Renault,0.0
+1994,Renault,0.0
+1995,Renault,0.0
+1996,Renault,0.0
+1997,Renault,0.0
+1998,Renault,0.0
+1999,Renault,0.0
+2000,Renault,0.0
+2001,Renault,0.0
+2002,Renault,0.0
+2003,Renault,0.0
+2004,Renault,0.0
+2005,Renault,1.0
+2006,Renault,2.0
+2007,Renault,2.0
+2008,Renault,2.0
+2009,Renault,2.0
+2010,Renault,2.0
+2011,Renault,2.0
+2012,Renault,2.0
+2013,Renault,2.0
+2014,Renault,2.0
+2015,Renault,2.0
+2016,Renault,2.0
+2017,Renault,2.0
+2018,Renault,2.0
+2019,Renault,2.0
+2020,Renault,2.0
+2021,Renault,2.0
+2022,Renault,2.0
+1950,Brawn,0.0
+1951,Brawn,0.0
+1952,Brawn,0.0
+1953,Brawn,0.0
+1954,Brawn,0.0
+1955,Brawn,0.0
+1956,Brawn,0.0
+1957,Brawn,0.0
+1958,Brawn,0.0
+1959,Brawn,0.0
+1960,Brawn,0.0
+1961,Brawn,0.0
+1962,Brawn,0.0
+1963,Brawn,0.0
+1964,Brawn,0.0
+1965,Brawn,0.0
+1966,Brawn,0.0
+1967,Brawn,0.0
+1968,Brawn,0.0
+1969,Brawn,0.0
+1970,Brawn,0.0
+1971,Brawn,0.0
+1972,Brawn,0.0
+1973,Brawn,0.0
+1974,Brawn,0.0
+1975,Brawn,0.0
+1976,Brawn,0.0
+1977,Brawn,0.0
+1978,Brawn,0.0
+1979,Brawn,0.0
+1980,Brawn,0.0
+1981,Brawn,0.0
+1982,Brawn,0.0
+1983,Brawn,0.0
+1984,Brawn,0.0
+1985,Brawn,0.0
+1986,Brawn,0.0
+1987,Brawn,0.0
+1988,Brawn,0.0
+1989,Brawn,0.0
+1990,Brawn,0.0
+1991,Brawn,0.0
+1992,Brawn,0.0
+1993,Brawn,0.0
+1994,Brawn,0.0
+1995,Brawn,0.0
+1996,Brawn,0.0
+1997,Brawn,0.0
+1998,Brawn,0.0
+1999,Brawn,0.0
+2000,Brawn,0.0
+2001,Brawn,0.0
+2002,Brawn,0.0
+2003,Brawn,0.0
+2004,Brawn,0.0
+2005,Brawn,0.0
+2006,Brawn,0.0
+2007,Brawn,0.0
+2008,Brawn,0.0
+2009,Brawn,1.0
+2010,Brawn,1.0
+2011,Brawn,1.0
+2012,Brawn,1.0
+2013,Brawn,1.0
+2014,Brawn,1.0
+2015,Brawn,1.0
+2016,Brawn,1.0
+2017,Brawn,1.0
+2018,Brawn,1.0
+2019,Brawn,1.0
+2020,Brawn,1.0
+2021,Brawn,1.0
+2022,Brawn,1.0
+1950,Red Bull,0.0
+1951,Red Bull,0.0
+1952,Red Bull,0.0
+1953,Red Bull,0.0
+1954,Red Bull,0.0
+1955,Red Bull,0.0
+1956,Red Bull,0.0
+1957,Red Bull,0.0
+1958,Red Bull,0.0
+1959,Red Bull,0.0
+1960,Red Bull,0.0
+1961,Red Bull,0.0
+1962,Red Bull,0.0
+1963,Red Bull,0.0
+1964,Red Bull,0.0
+1965,Red Bull,0.0
+1966,Red Bull,0.0
+1967,Red Bull,0.0
+1968,Red Bull,0.0
+1969,Red Bull,0.0
+1970,Red Bull,0.0
+1971,Red Bull,0.0
+1972,Red Bull,0.0
+1973,Red Bull,0.0
+1974,Red Bull,0.0
+1975,Red Bull,0.0
+1976,Red Bull,0.0
+1977,Red Bull,0.0
+1978,Red Bull,0.0
+1979,Red Bull,0.0
+1980,Red Bull,0.0
+1981,Red Bull,0.0
+1982,Red Bull,0.0
+1983,Red Bull,0.0
+1984,Red Bull,0.0
+1985,Red Bull,0.0
+1986,Red Bull,0.0
+1987,Red Bull,0.0
+1988,Red Bull,0.0
+1989,Red Bull,0.0
+1990,Red Bull,0.0
+1991,Red Bull,0.0
+1992,Red Bull,0.0
+1993,Red Bull,0.0
+1994,Red Bull,0.0
+1995,Red Bull,0.0
+1996,Red Bull,0.0
+1997,Red Bull,0.0
+1998,Red Bull,0.0
+1999,Red Bull,0.0
+2000,Red Bull,0.0
+2001,Red Bull,0.0
+2002,Red Bull,0.0
+2003,Red Bull,0.0
+2004,Red Bull,0.0
+2005,Red Bull,0.0
+2006,Red Bull,0.0
+2007,Red Bull,0.0
+2008,Red Bull,0.0
+2009,Red Bull,0.0
+2010,Red Bull,1.0
+2011,Red Bull,2.0
+2012,Red Bull,3.0
+2013,Red Bull,4.0
+2014,Red Bull,4.0
+2015,Red Bull,4.0
+2016,Red Bull,4.0
+2017,Red Bull,4.0
+2018,Red Bull,4.0
+2019,Red Bull,4.0
+2020,Red Bull,4.0
+2021,Red Bull,4.0
+2022,Red Bull,5.0
