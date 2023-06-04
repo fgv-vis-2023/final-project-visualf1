@@ -1,108 +1,151 @@
-var margin = {top: 10, right: 30, bottom: 30, left: 40},
-    width = 460 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+var margin = {top: 10, right: 30, bottom: 30, left: 70},
+    width = 590 - margin.left - margin.right,
+    height = 800 - margin.top - margin.bottom;
+    height_added = 500 - margin.top - margin.bottom +30;
 
-// append the svg object to the body of the page
+var selectedYear = "2022";
+
+const dropdownItems = document.querySelectorAll('.dropdown-item');
+
+// Add click event listener to each dropdown item
+dropdownItems.forEach(item => {
+  item.addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent the default link behavior
+
+    // Get the selected year from the href attribute
+    const selectedYear = this.getAttribute('href').substring(1);
+
+    // Use the selectedYear variable as needed
+    console.log('Selected year:', selectedYear);
+    clearGraph();
+
+
+    updateGraph(selectedYear);
+
+  });
+});
+
+// Append the SVG object to the body of the page
 var svg = d3.select("#viz-violin")
   .append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
+    .attr("width", height + margin.top + margin.bottom) // Swap width and height
+    .attr("height", width + margin.left + margin.right) // Swap width and height
   .append("g")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
 
-// Read the data and compute summary statistics for each specie
-d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/iris.csv", function(data) {
+function clearGraph() {
+    svg.selectAll("*").remove();
+}
 
-  // Build and Show the Y scale
-  var y = d3.scaleLinear()
-    .domain([ 3.5,8 ])          // Note that here the Y scale is set manually
-    .range([height, 0])
-    var yAxis = svg.append("g").call(d3.axisLeft(y));
-    yAxis.selectAll("text")
-      .style("fill", "white"); // Set axis text color to white
-    yAxis.select("path")
-      .style("stroke", "white"); // Set axis line color to white
-  
-    
 
-  // Build and Show the X scale. It is a band scale like for a boxplot: each group has an dedicated RANGE on the axis. This range has a length of x.bandwidth
-  var x = d3.scaleBand()
-    .range([ 0, width ])
-    .domain(["setosa", "versicolor", "virginica"])
-    .padding(0.05)     // This is important: it is the space between 2 groups. 0 means no padding. 1 is the maximum.
+function updateGraph(selectedYear) {
+            
+    // Read the data and compute summary statistics for each species
+    d3.csv("https://raw.githubusercontent.com/felipelmc/Formula1-Viz/main/times.csv", function(data) {
+
+    var data  = data.filter(function(d) {
+        return d.year === selectedYear;
+    });
+
+    var categories = Array.from(new Set(data .map(function(d) { return d.constructorName; })));
+
+
+    // Build and show the X scale (inverted Y scale)
+    var x = d3.scaleLinear() // Use scaleLinear for inverted scale
+    .domain([10000.0, 45000.0])
+    .range([0, height]); // Swap height and 0
+
     var xAxis = svg.append("g")
-    .attr("transform", "translate(0," + height + ")")
+    .attr("transform", "translate(0," + height_added + ")") // Move the x-axis to the bottom
     .call(d3.axisBottom(x));
-  xAxis.selectAll("text")
+
+    xAxis.selectAll("text")
     .style("fill", "white"); // Set axis text color to white
-  xAxis.select("path")
+
+
+    xAxis.select("path")
     .style("stroke", "white"); // Set axis line color to white
 
-  // Features of the histogram
-  var histogram = d3.histogram()
-        .domain(y.domain())
-        .thresholds(y.ticks(20))    // Important: how many bins approx are going to be made? It is the 'resolution' of the violin plot
-        .value(d => d)
+    // Build and show the Y scale (inverted X scale)
+    var y = d3.scaleBand()
+        .range([0, width])
+        .domain(categories)
+        .padding(0.05);
 
-  // Compute the binning for each group of the dataset
-  var sumstat = d3.nest()  // nest function allows to group the calculation per level of a factor
-    .key(function(d) { return d.Species;})
-    .rollup(function(d) {   // For each key..
-      input = d.map(function(g) { return g.Sepal_Length;})    // Keep the variable called Sepal_Length
-      bins = histogram(input)   // And compute the binning on it.
-      return(bins)
-    })
-    .entries(data)
+    var yAxis = svg.append("g")
+        .call(d3.axisLeft(y));
+    yAxis.selectAll("text")
+        .style("fill", "white"); // Set axis text color to white
+    yAxis.select("path")
+        .style("stroke", "white"); // Set axis line color to white
 
-  // What is the biggest number of value in a bin? We need it cause this value will have a width of 100% of the bandwidth.
-  var maxNum = 0
-  for ( i in sumstat ){
-    allBins = sumstat[i].value
-    lengths = allBins.map(function(a){return a.length;})
-    longuest = d3.max(lengths)
-    if (longuest > maxNum) { maxNum = longuest }
-  }
+    // Features of the histogram
+    var histogram = d3.histogram()
+        .domain(x.domain()) // Swap x and y domain
+        .thresholds(x.ticks(20))
+        .value(d => d);
 
-  // The maximum width of a violin must be x.bandwidth = the width dedicated to a group
-  var xNum = d3.scaleLinear()
-    .range([0, x.bandwidth()])
-    .domain([-maxNum,maxNum])
+    // Compute the binning for each group of the dataset
+    var sumstat = d3.nest()
+        .key(function(d) { return d.constructorName; })
+        .rollup(function(d) {
+        input = d.map(function(g) { return g.milliseconds; })
+        bins = histogram(input)
+        return bins;
+        })
+        .entries(data);
 
-  // Color scale for dots
-  var myColor = d3.scaleSequential()
-    .interpolator(d3.interpolateInferno)
-    .domain([3,9])
+    // What is the biggest number of values in a bin? We need it because this value will have a width of 100% of the bandwidth.
+    var maxNum = 0;
+    for (i in sumstat) {
+        allBins = sumstat[i].value;
+        lengths = allBins.map(function(a) { return a.length; });
+        longuest = d3.max(lengths);
+        if (longuest > maxNum) { maxNum = longuest; }
+    }
 
-  // Add the shape to this svg!
-  svg
-    .selectAll("myViolin")
-    .data(sumstat)
-    .enter()        // So now we are working group per group
-    .append("g")
-      .attr("transform", function(d){ return("translate(" + x(d.key) +" ,0)") } ) // Translation on the right to be at the group position
-    .append("path")
-        .datum(function(d){ return(d.value)})     // So now we are working bin per bin
+    // The maximum width of a violin must be y.bandwidth = the width dedicated to a group
+    var yNum = d3.scaleLinear() // Use scaleLinear for inverted scale
+        .range([0, y.bandwidth()])
+        .domain([-maxNum, maxNum]); // Swap -maxNum and maxNum
+
+    // Color scale for dots
+    var myColor = d3.scaleSequential()
+        .interpolator(d3.interpolateInferno)
+        .domain([3, 9]);
+
+    // Add the shape to this SVG!
+    svg
+        .selectAll("myViolin")
+        .data(sumstat)
+        .enter()
+        .append("g")
+        .attr("transform", function(d) { return "translate(0," + y(d.key) + ")"; }) // Swap x and y position
+        .append("path")
+        .datum(function(d) { return d.value; })
         .style("stroke", "none")
-        .style("fill","red")
+        .style("fill", "blue")
         .attr("d", d3.area()
-            .x0( xNum(0) )
-            .x1(function(d){ return(xNum(d.length)) } )
-            .y(function(d){ return(y(d.x0)) } )
-            .curve(d3.curveCatmullRom)    // This makes the line smoother to give the violin appearance. Try d3.curveStep to see the difference
-        )
+        .y0(yNum(0)) // Swap yNum(0) and yNum(d.length)
+        .y1(function(d) { return yNum(d.length) ; }) // Swap yNum(0) and yNum(d.length)
+        .x(function(d) { return x(d.x0) +30; }) // Swap x and y
+        .curve(d3.curveCatmullRom)
+        );
 
-  // Add individual points with jitter
-  var jitterWidth = 40
-  svg
-    .selectAll("indPoints")
-    .data(data)
-    .enter()
-    .append("circle")
-      .attr("cx", function(d){return(x(d.Species) + x.bandwidth()/2 - Math.random()*jitterWidth )})
-      .attr("cy", function(d){return(y(d.Sepal_Length))})
-      .attr("r", 5)
-      .style("fill", function(d){ return(myColor(d.Sepal_Length))})
-      .attr("stroke", "white")
+    // Add individual points with jitter
+    var jitterWidth = 15;
+    svg
+        .selectAll("indPoints")
+        .data(data)
+        .enter()
+        .append("circle")
+        .attr("cy", function(d) { return y(d.constructorName) + y.bandwidth() / 2 - Math.random() * jitterWidth; }) // Swap y and x position
+        .attr("cx", function(d) { return x(d.milliseconds) + 30; }) // Swap x and y position
+        .attr("r", 3)
+        .style("fill", "red")
+        .attr("stroke", "white");
+    });
+};
 
-})
+updateGraph(selectedYear);
