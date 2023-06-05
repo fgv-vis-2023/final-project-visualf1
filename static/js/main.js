@@ -11,9 +11,9 @@ const camera = new THREE.PerspectiveCamera(
   75,
   window.innerWidth / window.innerHeight,
   0.1,
-  1000
+  1200
 )
-camera.position.set(.5,1.7,5.5)
+camera.position.set(.5,1.7,7.5)
 console.log("updated bas vasco")
 const renderer = new THREE.WebGLRenderer({ antialias: true })
 renderer.useLegacyLights = false //use this instead of setting physicallyCorrectLights=true property
