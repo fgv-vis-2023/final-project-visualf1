@@ -1,0 +1,14 @@
+{
+  "name": "25abe487081e30d2",
+  "main": "25abe487081e30d2@650.js",
+  "version": "650.0.0",
+  "homepage": "https://observablehq.com/d/25abe487081e30d2",
+  "author": {
+    "name": "Felipe Lamarca",
+    "url": "https://observablehq.com/@felipelmc-viz"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
