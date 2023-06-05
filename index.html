@@ -11,34 +11,52 @@
     <!--D3-->
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
-    <!--css-->
-    <link rel="stylesheet" href="css/styles.css">
+    <!--Three.js-->
+    <script type="importmap">
+        {
+            "imports": {
+            "three": "https://unpkg.com/three@0.152.2/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.152.2/examples/jsm/"
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="static/css/styles.css">
     <link rel="icon" href="images/icon.png">
 </head>
 
 
 <body>
-
-    <nav>
-        <a href="#inicio"><span>Início</span><i class="fa fa-circle"></i></a>
-        <a href="#historia"><span>História</span><i class="fa fa-circle"></i></a>
-        <a href="#engine"><span>Construtoras</span><i class="fa fa-circle"></i></a>
-        <a href="#resto"><span>Resto da página</span><i class="fa fa-circle"></i></a>
-    </nav>
+    <div id="nav-wrapper">
+        <nav>
+            <a href="#inicio" class="nav-button active" id="i"><i class="fa fa-circle"></i></a>
+            <a href="#historia" class="nav-button" id="h"><i class="fa fa-circle"></i></a>
+            <a href="#engine" class="nav-button" id="e"><i class="fa fa-circle"></i></a>
+            <a href="#resto" class="nav-button" id="r"><i class="fa fa-circle"></i></a>
+            <!-- use "images/icon.png" as icon -->
+            <img src="images/icon.png" id="LilCar" alt="LilCar">
+        </nav>
+            <span class="nav-text original"></span>
+    </div>
 
     <section id="inicio">
         <img id="title" src="images/title.svg">
-        <div class="title_desc">
-        </div>
+        <div id="3dcar"></div>
     </section>
 
     <section id="historia" style="padding-top: 10vh;">
         <h1>O passado</h1>
         <div class="flexHorizontal">
-            <img class="old_cars" src="images/old_cars.png">
+            <img class="f1_car" src="images/f1_car.png">
             <p>A Fórmula 1 é considerada a categoria mais importante do automobilismo mundial. Por ela, passaram nomes como Ayrton Senna, Michael Schumacher, Nelson Piquet, Niki Lauda e tantos outros pilotos de renome.
                 <br> <br>
                  Como em todo esporte a motor, na F1 os resultados dependem da combinação entre piloto e equipamento, e essa relação move há anos uma <em>multidão de fãs.</em></p>
+        </div>
+
+        <div class="flexHorizontal">
+            <p class="alignright"> O passado do esporte reflete em sua atualidade, e olhar pra trás é, antes de tudo, muito interessante. Em 1950, quando o esporte foi institucionalizado, os motores eram menos potentes e os carros muito mais frágeis. A velocidade máxima não chegava a 300km/h, e o cinto de segurança nem era obrigatório.
+                <br> <br>
+            Acompanhe a seguir a <em>linha do tempo </em>:</p>
+            <img class="old_cars" src="images/old_cars.png">
         </div>
     </section>
 
@@ -68,28 +86,37 @@
                 </div>
                 <div class="row">
                     <p>Além de uma competição de pilotos, a Formula 1 é uma competição de engenheiros de primeira linha. Para que um piloto tenha condições de competir, o desempenho da constutora é essencial, desde a construção de um carro potente à equipe de PitStop.</p>
-
-                    <h3 class="alignright"><a href="violin.html" class="largepill"><em>PitStops!</em></a></h3>
+                    <p>Acumulando pontos ao longo das corridas, as construtoras também competem entre si pelo título de campeã mundial.</p>
+                    <h3 class="alignleft"><a href="barRace.html" class="largepill"><em>Vitórias das construtoras</em></a></h3>
                 </div>
 
             </div>
             <div class="flexVertical engine">
-                <img src="./images/engine.jpg" width="200">      
+                <img src="./images/engine.jpg" width="150px">      
             </div>
         </div>
+    
     </section>
 
-    <div id ="pista_historia">
-        <img src="images/construtoras.png" width="1350px">
-    </div>
-
-
     <section id="resto">
-        <p class="alignright">
-            oiii<br><br><em>letra diferente</em><br>Letra assim<br><br></p>
-        <h3 class="alignright"><a href="barRace.html" class="largepill"><em>Outras coisas da página...</em></a></h3>
-        <br>
-        <h3 class="alignright"><a href="graficos.html" class="smallpill"><em>Outras coisas da página...</em></a></h3>
+        <div class="flexHorizontal">
+            <div class="flexVertical pit">
+                <img src="./images/pitstop.png" width="200">      
+            </div>
+            <div class="container">
+                <div class="row">
+                    <h1 class="alignright">PitStop</h1>
+                </div>
+                <div class="row">
+                    <p class="alignright"> O PitStop é um momento decisivo na corrida. As equipes, que no início da F1 consistiam em 4 pessoas (e agora são 25!), são altamente treinadas para realizar as trocas de pneu o mais rápido possível e retornar o piloto à corrida. </p>
+                    <p class="alignright"></p>
+                    <h3 class="alignright"><a href="violin.html" class="largepill"><em>PitStops!</em></a></h3>
+                </div>
+
+            </div>
+
+        </div>
+    
     </section>
 
     
@@ -107,9 +134,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <!--personal js-->
-    <script src="./js/scroll.js"></script>
-    <script src="./js/tooltip_historia.js"></script>
-
+    <script src="static/js/scroll.js"></script>
+    <script src="static/js/tooltip_historia.js"></script>
+    <script src="static/js/style.js"></script>
+    <script type="module" src="static/js/main.js"></script>
 </body>
 
 </html>

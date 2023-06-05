@@ -1,0 +1,18 @@
+:root {
+    --primary: #CCB8D9;
+    --secondary: #FA3131;
+    --accent: #579ee4;
+    --text: hsl(0, 0%, 100%);
+    --light: #FFFFFF;
+    --background: #000000;
+    --footer-color: #292929;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: var(--background);
+    font-family: 'Crimson Text', serif;
+    color: var(--primary);
+    overflow-x: hidden;
+}
