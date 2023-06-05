@@ -1,304 +1,69 @@
 year,constructorName,wins
-1950,Alfa Romeo,1.0
-1951,Alfa Romeo,1.0
-1952,Alfa Romeo,1.0
-1953,Alfa Romeo,1.0
-1954,Alfa Romeo,1.0
-1955,Alfa Romeo,1.0
-1956,Alfa Romeo,1.0
-1957,Alfa Romeo,1.0
-1958,Alfa Romeo,1.0
-1959,Alfa Romeo,1.0
-1960,Alfa Romeo,1.0
-1961,Alfa Romeo,1.0
-1962,Alfa Romeo,1.0
-1963,Alfa Romeo,1.0
-1964,Alfa Romeo,1.0
-1965,Alfa Romeo,1.0
-1966,Alfa Romeo,1.0
-1967,Alfa Romeo,1.0
-1968,Alfa Romeo,1.0
-1969,Alfa Romeo,1.0
-1970,Alfa Romeo,1.0
-1971,Alfa Romeo,1.0
-1972,Alfa Romeo,1.0
-1973,Alfa Romeo,1.0
-1974,Alfa Romeo,1.0
-1975,Alfa Romeo,1.0
-1976,Alfa Romeo,1.0
-1977,Alfa Romeo,1.0
-1978,Alfa Romeo,1.0
-1979,Alfa Romeo,1.0
-1980,Alfa Romeo,1.0
-1981,Alfa Romeo,1.0
-1982,Alfa Romeo,1.0
-1983,Alfa Romeo,1.0
-1984,Alfa Romeo,1.0
-1985,Alfa Romeo,1.0
-1986,Alfa Romeo,1.0
-1987,Alfa Romeo,1.0
-1988,Alfa Romeo,1.0
-1989,Alfa Romeo,1.0
-1990,Alfa Romeo,1.0
-1991,Alfa Romeo,1.0
-1992,Alfa Romeo,1.0
-1993,Alfa Romeo,1.0
-1994,Alfa Romeo,1.0
-1995,Alfa Romeo,1.0
-1996,Alfa Romeo,1.0
-1997,Alfa Romeo,1.0
-1998,Alfa Romeo,1.0
-1999,Alfa Romeo,1.0
-2000,Alfa Romeo,1.0
-2001,Alfa Romeo,1.0
-2002,Alfa Romeo,1.0
-2003,Alfa Romeo,1.0
-2004,Alfa Romeo,1.0
-2005,Alfa Romeo,1.0
-2006,Alfa Romeo,1.0
-2007,Alfa Romeo,1.0
-2008,Alfa Romeo,1.0
-2009,Alfa Romeo,1.0
-2010,Alfa Romeo,1.0
-2011,Alfa Romeo,1.0
-2012,Alfa Romeo,1.0
-2013,Alfa Romeo,1.0
-2014,Alfa Romeo,1.0
-2015,Alfa Romeo,1.0
-2016,Alfa Romeo,1.0
-2017,Alfa Romeo,1.0
-2018,Alfa Romeo,1.0
-2019,Alfa Romeo,1.0
-2020,Alfa Romeo,1.0
-2021,Alfa Romeo,1.0
-2022,Alfa Romeo,1.0
-1950,Ferrari,0.0
-1951,Ferrari,1.0
-1952,Ferrari,2.0
-1953,Ferrari,3.0
-1954,Ferrari,4.0
-1955,Ferrari,4.0
-1956,Ferrari,5.0
-1957,Ferrari,5.0
-1958,Ferrari,6.0
-1959,Ferrari,6.0
-1960,Ferrari,6.0
-1961,Ferrari,7.0
-1962,Ferrari,7.0
-1963,Ferrari,7.0
-1964,Ferrari,7.0
-1965,Ferrari,7.0
-1966,Ferrari,7.0
-1967,Ferrari,7.0
-1968,Ferrari,7.0
-1969,Ferrari,7.0
-1970,Ferrari,8.0
-1971,Ferrari,8.0
-1972,Ferrari,8.0
-1973,Ferrari,8.0
-1974,Ferrari,9.0
-1975,Ferrari,10.0
-1976,Ferrari,11.0
-1977,Ferrari,12.0
-1978,Ferrari,12.0
-1979,Ferrari,13.0
-1980,Ferrari,13.0
-1981,Ferrari,13.0
-1982,Ferrari,14.0
-1983,Ferrari,15.0
-1984,Ferrari,15.0
-1985,Ferrari,15.0
-1986,Ferrari,15.0
-1987,Ferrari,15.0
-1988,Ferrari,15.0
-1989,Ferrari,15.0
-1990,Ferrari,15.0
-1991,Ferrari,15.0
-1992,Ferrari,15.0
-1993,Ferrari,15.0
-1994,Ferrari,15.0
-1995,Ferrari,15.0
-1996,Ferrari,15.0
-1997,Ferrari,15.0
-1998,Ferrari,15.0
-1999,Ferrari,16.0
-2000,Ferrari,17.0
-2001,Ferrari,18.0
-2002,Ferrari,19.0
-2003,Ferrari,20.0
-2004,Ferrari,21.0
-2005,Ferrari,21.0
-2006,Ferrari,21.0
-2007,Ferrari,21.0
-2008,Ferrari,22.0
-2009,Ferrari,22.0
-2010,Ferrari,22.0
-2011,Ferrari,22.0
-2012,Ferrari,22.0
-2013,Ferrari,22.0
-2014,Ferrari,22.0
-2015,Ferrari,22.0
-2016,Ferrari,22.0
-2017,Ferrari,22.0
-2018,Ferrari,22.0
-2019,Ferrari,22.0
-2020,Ferrari,22.0
-2021,Ferrari,22.0
-2022,Ferrari,22.0
-1950,Mercedes,0.0
-1951,Mercedes,0.0
-1952,Mercedes,0.0
-1953,Mercedes,0.0
-1954,Mercedes,0.0
-1955,Mercedes,1.0
-1956,Mercedes,1.0
-1957,Mercedes,1.0
-1958,Mercedes,1.0
-1959,Mercedes,1.0
-1960,Mercedes,1.0
-1961,Mercedes,1.0
-1962,Mercedes,1.0
-1963,Mercedes,1.0
-1964,Mercedes,1.0
-1965,Mercedes,1.0
-1966,Mercedes,1.0
-1967,Mercedes,1.0
-1968,Mercedes,1.0
-1969,Mercedes,1.0
-1970,Mercedes,1.0
-1971,Mercedes,1.0
-1972,Mercedes,1.0
-1973,Mercedes,1.0
-1974,Mercedes,1.0
-1975,Mercedes,1.0
-1976,Mercedes,1.0
-1977,Mercedes,1.0
-1978,Mercedes,1.0
-1979,Mercedes,1.0
-1980,Mercedes,1.0
-1981,Mercedes,1.0
-1982,Mercedes,1.0
-1983,Mercedes,1.0
-1984,Mercedes,1.0
-1985,Mercedes,1.0
-1986,Mercedes,1.0
-1987,Mercedes,1.0
-1988,Mercedes,1.0
-1989,Mercedes,1.0
-1990,Mercedes,1.0
-1991,Mercedes,1.0
-1992,Mercedes,1.0
-1993,Mercedes,1.0
-1994,Mercedes,1.0
-1995,Mercedes,1.0
-1996,Mercedes,1.0
-1997,Mercedes,1.0
-1998,Mercedes,1.0
-1999,Mercedes,1.0
-2000,Mercedes,1.0
-2001,Mercedes,1.0
-2002,Mercedes,1.0
-2003,Mercedes,1.0
-2004,Mercedes,1.0
-2005,Mercedes,1.0
-2006,Mercedes,1.0
-2007,Mercedes,1.0
-2008,Mercedes,1.0
-2009,Mercedes,1.0
-2010,Mercedes,1.0
-2011,Mercedes,1.0
-2012,Mercedes,1.0
-2013,Mercedes,1.0
-2014,Mercedes,2.0
-2015,Mercedes,3.0
-2016,Mercedes,4.0
-2017,Mercedes,5.0
-2018,Mercedes,6.0
-2019,Mercedes,7.0
-2020,Mercedes,8.0
-2021,Mercedes,9.0
-2022,Mercedes,9.0
-1950,Maserati,0.0
-1951,Maserati,0.0
-1952,Maserati,0.0
-1953,Maserati,0.0
-1954,Maserati,0.0
-1955,Maserati,0.0
-1956,Maserati,0.0
-1957,Maserati,1.0
-1958,Maserati,1.0
-1959,Maserati,1.0
-1960,Maserati,1.0
-1961,Maserati,1.0
-1962,Maserati,1.0
-1963,Maserati,1.0
-1964,Maserati,1.0
-1965,Maserati,1.0
-1966,Maserati,1.0
-1967,Maserati,1.0
-1968,Maserati,1.0
-1969,Maserati,1.0
-1970,Maserati,1.0
-1971,Maserati,1.0
-1972,Maserati,1.0
-1973,Maserati,1.0
-1974,Maserati,1.0
-1975,Maserati,1.0
-1976,Maserati,1.0
-1977,Maserati,1.0
-1978,Maserati,1.0
-1979,Maserati,1.0
-1980,Maserati,1.0
-1981,Maserati,1.0
-1982,Maserati,1.0
-1983,Maserati,1.0
-1984,Maserati,1.0
-1985,Maserati,1.0
-1986,Maserati,1.0
-1987,Maserati,1.0
-1988,Maserati,1.0
-1989,Maserati,1.0
-1990,Maserati,1.0
-1991,Maserati,1.0
-1992,Maserati,1.0
-1993,Maserati,1.0
-1994,Maserati,1.0
-1995,Maserati,1.0
-1996,Maserati,1.0
-1997,Maserati,1.0
-1998,Maserati,1.0
-1999,Maserati,1.0
-2000,Maserati,1.0
-2001,Maserati,1.0
-2002,Maserati,1.0
-2003,Maserati,1.0
-2004,Maserati,1.0
-2005,Maserati,1.0
-2006,Maserati,1.0
-2007,Maserati,1.0
-2008,Maserati,1.0
-2009,Maserati,1.0
-2010,Maserati,1.0
-2011,Maserati,1.0
-2012,Maserati,1.0
-2013,Maserati,1.0
-2014,Maserati,1.0
-2015,Maserati,1.0
-2016,Maserati,1.0
-2017,Maserati,1.0
-2018,Maserati,1.0
-2019,Maserati,1.0
-2020,Maserati,1.0
-2021,Maserati,1.0
-2022,Maserati,1.0
-1950,Cooper-Climax,0.0
-1951,Cooper-Climax,0.0
-1952,Cooper-Climax,0.0
-1953,Cooper-Climax,0.0
-1954,Cooper-Climax,0.0
-1955,Cooper-Climax,0.0
-1956,Cooper-Climax,0.0
-1957,Cooper-Climax,0.0
+1958,Ferrari,1.0
+1959,Ferrari,1.0
+1960,Ferrari,1.0
+1961,Ferrari,2.0
+1962,Ferrari,2.0
+1963,Ferrari,2.0
+1964,Ferrari,3.0
+1965,Ferrari,3.0
+1966,Ferrari,3.0
+1967,Ferrari,3.0
+1968,Ferrari,3.0
+1969,Ferrari,3.0
+1970,Ferrari,4.0
+1971,Ferrari,4.0
+1972,Ferrari,4.0
+1973,Ferrari,4.0
+1974,Ferrari,5.0
+1975,Ferrari,6.0
+1976,Ferrari,7.0
+1977,Ferrari,8.0
+1978,Ferrari,8.0
+1979,Ferrari,9.0
+1980,Ferrari,9.0
+1981,Ferrari,9.0
+1982,Ferrari,10.0
+1983,Ferrari,11.0
+1984,Ferrari,11.0
+1985,Ferrari,11.0
+1986,Ferrari,11.0
+1987,Ferrari,11.0
+1988,Ferrari,11.0
+1989,Ferrari,11.0
+1990,Ferrari,11.0
+1991,Ferrari,11.0
+1992,Ferrari,11.0
+1993,Ferrari,11.0
+1994,Ferrari,11.0
+1995,Ferrari,11.0
+1996,Ferrari,11.0
+1997,Ferrari,11.0
+1998,Ferrari,11.0
+1999,Ferrari,12.0
+2000,Ferrari,13.0
+2001,Ferrari,14.0
+2002,Ferrari,15.0
+2003,Ferrari,16.0
+2004,Ferrari,17.0
+2005,Ferrari,17.0
+2006,Ferrari,17.0
+2007,Ferrari,17.0
+2008,Ferrari,18.0
+2009,Ferrari,18.0
+2010,Ferrari,18.0
+2011,Ferrari,18.0
+2012,Ferrari,18.0
+2013,Ferrari,18.0
+2014,Ferrari,18.0
+2015,Ferrari,18.0
+2016,Ferrari,18.0
+2017,Ferrari,18.0
+2018,Ferrari,18.0
+2019,Ferrari,18.0
+2020,Ferrari,18.0
+2021,Ferrari,18.0
+2022,Ferrari,18.0
 1958,Cooper-Climax,0.0
 1959,Cooper-Climax,1.0
 1960,Cooper-Climax,2.0
@@ -364,87 +129,71 @@ year,constructorName,wins
 2020,Cooper-Climax,2.0
 2021,Cooper-Climax,2.0
 2022,Cooper-Climax,2.0
-1950,BRM,0.0
-1951,BRM,0.0
-1952,BRM,0.0
-1953,BRM,0.0
-1954,BRM,0.0
-1955,BRM,0.0
-1956,BRM,0.0
-1957,BRM,0.0
 1958,BRM,0.0
 1959,BRM,0.0
 1960,BRM,0.0
 1961,BRM,0.0
 1962,BRM,1.0
 1963,BRM,1.0
-1964,BRM,2.0
-1965,BRM,3.0
-1966,BRM,3.0
-1967,BRM,3.0
-1968,BRM,3.0
-1969,BRM,3.0
-1970,BRM,3.0
-1971,BRM,3.0
-1972,BRM,3.0
-1973,BRM,3.0
-1974,BRM,3.0
-1975,BRM,3.0
-1976,BRM,3.0
-1977,BRM,3.0
-1978,BRM,3.0
-1979,BRM,3.0
-1980,BRM,3.0
-1981,BRM,3.0
-1982,BRM,3.0
-1983,BRM,3.0
-1984,BRM,3.0
-1985,BRM,3.0
-1986,BRM,3.0
-1987,BRM,3.0
-1988,BRM,3.0
-1989,BRM,3.0
-1990,BRM,3.0
-1991,BRM,3.0
-1992,BRM,3.0
-1993,BRM,3.0
-1994,BRM,3.0
-1995,BRM,3.0
-1996,BRM,3.0
-1997,BRM,3.0
-1998,BRM,3.0
-1999,BRM,3.0
-2000,BRM,3.0
-2001,BRM,3.0
-2002,BRM,3.0
-2003,BRM,3.0
-2004,BRM,3.0
-2005,BRM,3.0
-2006,BRM,3.0
-2007,BRM,3.0
-2008,BRM,3.0
-2009,BRM,3.0
-2010,BRM,3.0
-2011,BRM,3.0
-2012,BRM,3.0
-2013,BRM,3.0
-2014,BRM,3.0
-2015,BRM,3.0
-2016,BRM,3.0
-2017,BRM,3.0
-2018,BRM,3.0
-2019,BRM,3.0
-2020,BRM,3.0
-2021,BRM,3.0
-2022,BRM,3.0
-1950,Lotus-Climax,0.0
-1951,Lotus-Climax,0.0
-1952,Lotus-Climax,0.0
-1953,Lotus-Climax,0.0
-1954,Lotus-Climax,0.0
-1955,Lotus-Climax,0.0
-1956,Lotus-Climax,0.0
-1957,Lotus-Climax,0.0
+1964,BRM,1.0
+1965,BRM,2.0
+1966,BRM,2.0
+1967,BRM,2.0
+1968,BRM,2.0
+1969,BRM,2.0
+1970,BRM,2.0
+1971,BRM,2.0
+1972,BRM,2.0
+1973,BRM,2.0
+1974,BRM,2.0
+1975,BRM,2.0
+1976,BRM,2.0
+1977,BRM,2.0
+1978,BRM,2.0
+1979,BRM,2.0
+1980,BRM,2.0
+1981,BRM,2.0
+1982,BRM,2.0
+1983,BRM,2.0
+1984,BRM,2.0
+1985,BRM,2.0
+1986,BRM,2.0
+1987,BRM,2.0
+1988,BRM,2.0
+1989,BRM,2.0
+1990,BRM,2.0
+1991,BRM,2.0
+1992,BRM,2.0
+1993,BRM,2.0
+1994,BRM,2.0
+1995,BRM,2.0
+1996,BRM,2.0
+1997,BRM,2.0
+1998,BRM,2.0
+1999,BRM,2.0
+2000,BRM,2.0
+2001,BRM,2.0
+2002,BRM,2.0
+2003,BRM,2.0
+2004,BRM,2.0
+2005,BRM,2.0
+2006,BRM,2.0
+2007,BRM,2.0
+2008,BRM,2.0
+2009,BRM,2.0
+2010,BRM,2.0
+2011,BRM,2.0
+2012,BRM,2.0
+2013,BRM,2.0
+2014,BRM,2.0
+2015,BRM,2.0
+2016,BRM,2.0
+2017,BRM,2.0
+2018,BRM,2.0
+2019,BRM,2.0
+2020,BRM,2.0
+2021,BRM,2.0
+2022,BRM,2.0
 1958,Lotus-Climax,0.0
 1959,Lotus-Climax,0.0
 1960,Lotus-Climax,0.0
@@ -510,14 +259,6 @@ year,constructorName,wins
 2020,Lotus-Climax,1.0
 2021,Lotus-Climax,1.0
 2022,Lotus-Climax,1.0
-1950,Brabham-Repco,0.0
-1951,Brabham-Repco,0.0
-1952,Brabham-Repco,0.0
-1953,Brabham-Repco,0.0
-1954,Brabham-Repco,0.0
-1955,Brabham-Repco,0.0
-1956,Brabham-Repco,0.0
-1957,Brabham-Repco,0.0
 1958,Brabham-Repco,0.0
 1959,Brabham-Repco,0.0
 1960,Brabham-Repco,0.0
@@ -583,14 +324,6 @@ year,constructorName,wins
 2020,Brabham-Repco,2.0
 2021,Brabham-Repco,2.0
 2022,Brabham-Repco,2.0
-1950,Lotus-Ford,0.0
-1951,Lotus-Ford,0.0
-1952,Lotus-Ford,0.0
-1953,Lotus-Ford,0.0
-1954,Lotus-Ford,0.0
-1955,Lotus-Ford,0.0
-1956,Lotus-Ford,0.0
-1957,Lotus-Ford,0.0
 1958,Lotus-Ford,0.0
 1959,Lotus-Ford,0.0
 1960,Lotus-Ford,0.0
@@ -656,14 +389,6 @@ year,constructorName,wins
 2020,Lotus-Ford,1.0
 2021,Lotus-Ford,1.0
 2022,Lotus-Ford,1.0
-1950,Matra-Ford,0.0
-1951,Matra-Ford,0.0
-1952,Matra-Ford,0.0
-1953,Matra-Ford,0.0
-1954,Matra-Ford,0.0
-1955,Matra-Ford,0.0
-1956,Matra-Ford,0.0
-1957,Matra-Ford,0.0
 1958,Matra-Ford,0.0
 1959,Matra-Ford,0.0
 1960,Matra-Ford,0.0
@@ -729,14 +454,6 @@ year,constructorName,wins
 2020,Matra-Ford,1.0
 2021,Matra-Ford,1.0
 2022,Matra-Ford,1.0
-1950,Tyrrell,0.0
-1951,Tyrrell,0.0
-1952,Tyrrell,0.0
-1953,Tyrrell,0.0
-1954,Tyrrell,0.0
-1955,Tyrrell,0.0
-1956,Tyrrell,0.0
-1957,Tyrrell,0.0
 1958,Tyrrell,0.0
 1959,Tyrrell,0.0
 1960,Tyrrell,0.0
@@ -802,14 +519,6 @@ year,constructorName,wins
 2020,Tyrrell,2.0
 2021,Tyrrell,2.0
 2022,Tyrrell,2.0
-1950,McLaren,0.0
-1951,McLaren,0.0
-1952,McLaren,0.0
-1953,McLaren,0.0
-1954,McLaren,0.0
-1955,McLaren,0.0
-1956,McLaren,0.0
-1957,McLaren,0.0
 1958,McLaren,0.0
 1959,McLaren,0.0
 1960,McLaren,0.0
@@ -875,14 +584,6 @@ year,constructorName,wins
 2020,McLaren,9.0
 2021,McLaren,9.0
 2022,McLaren,9.0
-1950,Team Lotus,0.0
-1951,Team Lotus,0.0
-1952,Team Lotus,0.0
-1953,Team Lotus,0.0
-1954,Team Lotus,0.0
-1955,Team Lotus,0.0
-1956,Team Lotus,0.0
-1957,Team Lotus,0.0
 1958,Team Lotus,0.0
 1959,Team Lotus,0.0
 1960,Team Lotus,0.0
@@ -948,14 +649,6 @@ year,constructorName,wins
 2020,Team Lotus,1.0
 2021,Team Lotus,1.0
 2022,Team Lotus,1.0
-1950,Williams,0.0
-1951,Williams,0.0
-1952,Williams,0.0
-1953,Williams,0.0
-1954,Williams,0.0
-1955,Williams,0.0
-1956,Williams,0.0
-1957,Williams,0.0
 1958,Williams,0.0
 1959,Williams,0.0
 1960,Williams,0.0
@@ -1021,14 +714,6 @@ year,constructorName,wins
 2020,Williams,9.0
 2021,Williams,9.0
 2022,Williams,9.0
-1950,Benetton,0.0
-1951,Benetton,0.0
-1952,Benetton,0.0
-1953,Benetton,0.0
-1954,Benetton,0.0
-1955,Benetton,0.0
-1956,Benetton,0.0
-1957,Benetton,0.0
 1958,Benetton,0.0
 1959,Benetton,0.0
 1960,Benetton,0.0
@@ -1094,14 +779,6 @@ year,constructorName,wins
 2020,Benetton,1.0
 2021,Benetton,1.0
 2022,Benetton,1.0
-1950,Renault,0.0
-1951,Renault,0.0
-1952,Renault,0.0
-1953,Renault,0.0
-1954,Renault,0.0
-1955,Renault,0.0
-1956,Renault,0.0
-1957,Renault,0.0
 1958,Renault,0.0
 1959,Renault,0.0
 1960,Renault,0.0
@@ -1167,14 +844,6 @@ year,constructorName,wins
 2020,Renault,2.0
 2021,Renault,2.0
 2022,Renault,2.0
-1950,Brawn,0.0
-1951,Brawn,0.0
-1952,Brawn,0.0
-1953,Brawn,0.0
-1954,Brawn,0.0
-1955,Brawn,0.0
-1956,Brawn,0.0
-1957,Brawn,0.0
 1958,Brawn,0.0
 1959,Brawn,0.0
 1960,Brawn,0.0
@@ -1240,14 +909,6 @@ year,constructorName,wins
 2020,Brawn,1.0
 2021,Brawn,1.0
 2022,Brawn,1.0
-1950,Red Bull,0.0
-1951,Red Bull,0.0
-1952,Red Bull,0.0
-1953,Red Bull,0.0
-1954,Red Bull,0.0
-1955,Red Bull,0.0
-1956,Red Bull,0.0
-1957,Red Bull,0.0
 1958,Red Bull,0.0
 1959,Red Bull,0.0
 1960,Red Bull,0.0
@@ -1313,3 +974,68 @@ year,constructorName,wins
 2020,Red Bull,4.0
 2021,Red Bull,4.0
 2022,Red Bull,5.0
+1958,Mercedes,0.0
+1959,Mercedes,0.0
+1960,Mercedes,0.0
+1961,Mercedes,0.0
+1962,Mercedes,0.0
+1963,Mercedes,0.0
+1964,Mercedes,0.0
+1965,Mercedes,0.0
+1966,Mercedes,0.0
+1967,Mercedes,0.0
+1968,Mercedes,0.0
+1969,Mercedes,0.0
+1970,Mercedes,0.0
+1971,Mercedes,0.0
+1972,Mercedes,0.0
+1973,Mercedes,0.0
+1974,Mercedes,0.0
+1975,Mercedes,0.0
+1976,Mercedes,0.0
+1977,Mercedes,0.0
+1978,Mercedes,0.0
+1979,Mercedes,0.0
+1980,Mercedes,0.0
+1981,Mercedes,0.0
+1982,Mercedes,0.0
+1983,Mercedes,0.0
+1984,Mercedes,0.0
+1985,Mercedes,0.0
+1986,Mercedes,0.0
+1987,Mercedes,0.0
+1988,Mercedes,0.0
+1989,Mercedes,0.0
+1990,Mercedes,0.0
+1991,Mercedes,0.0
+1992,Mercedes,0.0
+1993,Mercedes,0.0
+1994,Mercedes,0.0
+1995,Mercedes,0.0
+1996,Mercedes,0.0
+1997,Mercedes,0.0
+1998,Mercedes,0.0
+1999,Mercedes,0.0
+2000,Mercedes,0.0
+2001,Mercedes,0.0
+2002,Mercedes,0.0
+2003,Mercedes,0.0
+2004,Mercedes,0.0
+2005,Mercedes,0.0
+2006,Mercedes,0.0
+2007,Mercedes,0.0
+2008,Mercedes,0.0
+2009,Mercedes,0.0
+2010,Mercedes,0.0
+2011,Mercedes,0.0
+2012,Mercedes,0.0
+2013,Mercedes,0.0
+2014,Mercedes,1.0
+2015,Mercedes,2.0
+2016,Mercedes,3.0
+2017,Mercedes,4.0
+2018,Mercedes,5.0
+2019,Mercedes,6.0
+2020,Mercedes,7.0
+2021,Mercedes,8.0
+2022,Mercedes,8.0
