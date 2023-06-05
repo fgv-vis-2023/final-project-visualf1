@@ -47,9 +47,9 @@
                         <div style="text-align: center; margin-left: 15%; margin-right: 15%; position: relative; top: -65px; color: #999999">
                             <h4> Use o botão de replay para reiniciar a animação do gráfico. </h4>
                         </div>
-                        <div style="text-align: center; position: relative; top: -60px" id="observablehq-viewof-replay-7904a003"></div>
+                        <div style="text-align: center; position: relative; top: -60px" id="observablehq-viewof-replay-a073c0d7"></div>
                         <div class="d-flex justify-content-center">
-                            <div style="position: relative; top: -40px; width: 100%;" id="observablehq-chart-7904a003"></div>
+                            <div style="position: relative; top: -40px; width: 75%;" id="observablehq-chart-a073c0d7"></div>
                         </div>
                     </div>
                 </div>
@@ -65,11 +65,12 @@
 
 </body>
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
 <script type="module">
     import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-    import define from "https://api.observablehq.com/d/25abe487081e30d2@639.js?v=3";
+    import define from "https://api.observablehq.com/d/25abe487081e30d2@650.js?v=3";
     new Runtime().module(define, name => {
-    if (name === "viewof replay") return new Inspector(document.querySelector("#observablehq-viewof-replay-7904a003"));
-    if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-7904a003"));
+    if (name === "viewof replay") return new Inspector(document.querySelector("#observablehq-viewof-replay-a073c0d7"));
+    if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-a073c0d7"));
     });
 </script>
