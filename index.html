@@ -11,25 +11,36 @@
     <!--D3-->
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
-    <!--css-->
-    <link rel="stylesheet" href="css/styles.css">
+    <!--Three.js-->
+    <script type="importmap">
+        {
+            "imports": {
+            "three": "https://unpkg.com/three@0.152.2/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.152.2/examples/jsm/"
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="static/css/styles.css">
     <link rel="icon" href="images/icon.png">
 </head>
 
 
 <body>
-
-    <nav>
-        <a href="#inicio"><span>Início</span><i class="fa fa-circle"></i></a>
-        <a href="#historia"><span>História</span><i class="fa fa-circle"></i></a>
-        <a href="#engine"><span>Construtoras</span><i class="fa fa-circle"></i></a>
-        <a href="#resto"><span>Resto da página</span><i class="fa fa-circle"></i></a>
-    </nav>
+    <div id="nav-wrapper">
+        <nav>
+            <a href="#inicio" class="nav-button active" id="i"><i class="fa fa-circle"></i></a>
+            <a href="#historia" class="nav-button" id="h"><i class="fa fa-circle"></i></a>
+            <a href="#engine" class="nav-button" id="e"><i class="fa fa-circle"></i></a>
+            <a href="#resto" class="nav-button" id="r"><i class="fa fa-circle"></i></a>
+            <!-- use "images/icon.png" as icon -->
+            <img src="images/icon.png" id="LilCar" alt="LilCar">
+        </nav>
+            <span class="nav-text original"></span>
+    </div>
 
     <section id="inicio">
         <img id="title" src="images/title.svg">
-        <div class="title_desc">
-        </div>
+        <div id="3dcar"></div>
     </section>
 
     <section id="historia" style="padding-top: 10vh;">
@@ -107,9 +118,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <!--personal js-->
-    <script src="./js/scroll.js"></script>
-    <script src="./js/tooltip_historia.js"></script>
-
+    <script src="static/js/scroll.js"></script>
+    <script src="static/js/tooltip_historia.js"></script>
+    <script src="static/js/style.js"></script>
+    <script type="module" src="static/js/main.js"></script>
 </body>
 
 </html>
