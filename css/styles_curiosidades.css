@@ -74,3 +74,21 @@ p {
   font-size: 15px;
   color: var(--footer-color);
 }
+.card-text-b {
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--footer-color);
+}
+
+.btn-circle.btn-xl {
+  width: 72px;
+  height: 72px;
+  border-radius: 60px;
+  fill: var(--light);
+}
+
+#car {
+  display: block;
+  margin-left: 140px;
+  margin-right: 0px;
+}
