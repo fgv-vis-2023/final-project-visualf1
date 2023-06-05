@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Visual F1 - Vitórias</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&family=Stalemate&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--D3-->
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+    <!--css-->
+    <link rel="stylesheet" href="static/css/barRace.css">
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="images/title.svg" width="100">
+            </div>
+            <div class="col button-container">
+                <h5><a href="barRaceConstructor.html" class="largepill"><em>Por construtora</em></a></h5>
+            </div>
+            <div class="col button-container">
+                <h5><a href="barRacePilot.html" class="largepill"><em>Por piloto</em></a></h5>
+            </div>
+        </div>
+        
+        
+        <div><h1 style="text-align: center; "> Vitórias em corridas acumuladas por construtoras, por temporada (1950-2022) </h1></div>
+        <div style="position: relative; top: 60px" class = "barrace">
+            <div style="width: 100%; display: table;">
+                <div style="display: table-row;">
+                    <div style="width: 50%; display: table-cell;">
+                        <div style="text-align: center; margin-left: 15%; margin-right: 15%; position: relative; top: -65px; color: #999999">
+                            <h4> Use o botão de replay para reiniciar a animação do gráfico. </h4>
+                        </div>
+                        <div style="text-align: center; position: relative; top: -60px" id="observablehq-viewof-replay-d2755606"></div>
+                        <div class="d-flex justify-content-center">
+                            <div style="position: relative; top: -40px; width: 100%;" id="observablehq-chart-d2755606"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <br>
+
+    <div id ="pista_historia" class = "d-flex justify-content-center">
+        <img src="images/construtoras.png" width="75%">
+    </div>
+
+</body>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+import define from "https://api.observablehq.com/d/da09e876311ba85e@671.js?v=3";
+new Runtime().module(define, name => {
+  if (name === "viewof replay") return new Inspector(document.querySelector("#observablehq-viewof-replay-d2755606"));
+  if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-d2755606"));
+});
+</script>

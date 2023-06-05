@@ -16,3 +16,17 @@ body {
     color: var(--primary);
     overflow-x: hidden;
 }
+
+.largepill {
+    padding: 6px 23px 4px 23px;
+    border: none;
+    white-space: nowrap;
+    text-decoration: none;
+    border-radius: 100px;
+    background: var(--secondary);
+    color: white;
+}
+
+.button-container {
+    margin-top: 40px; /* Adjust the margin value as needed */
+}
