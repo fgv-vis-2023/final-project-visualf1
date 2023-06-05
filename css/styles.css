@@ -21,8 +21,9 @@ text {
     font-family: 'Crimson Text', serif;
 }
 
-h2 {
-    font-weight: 700;
+h1 {
+    font-size: 60px;
+    font-weight: bold;
     color: var(--secondary);
 }
 

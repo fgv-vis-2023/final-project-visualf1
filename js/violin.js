@@ -182,7 +182,7 @@ function updateGraph(selectedYear, selectedCorrida) {
         .attr("d", d3.area()
         .y0(yNum(0)) // Swap yNum(0) and yNum(d.length)
         .y1(function(d) { return yNum(d.length) ; }) // Swap yNum(0) and yNum(d.length)
-        .x(function(d) { return x(d.x0) +30; }) // Swap x and y
+        .x(function(d) { return x(d.x0) +40; }) // Swap x and y
         .curve(d3.curveCatmullRom)
         );
 
