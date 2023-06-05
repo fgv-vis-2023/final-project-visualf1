@@ -198,17 +198,34 @@ section {
 }
 
 .old_cars {
+    
+    width: 50vw;
+    margin-left: 10vh;
+}
+
+.f1_car {
     width: 50vw;
     margin-right: 10vh;
 }
+
 
 .engine {
     margin-left: 10vh;
 }
 
 .engine > img {
+    width: 40vw;
+}
+
+.pit {
+    margin-left: 0vh;
+}
+
+.pit > img {
     width: 50vw;
 }
+
+
 
 .pista_historia > img {
     width: 100vw;

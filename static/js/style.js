@@ -21,16 +21,16 @@ for (var i = 0; i < navButton.length; i++) {
 
         let elementId = this.id;
         if (elementId === "i"){
-            text.innerHTML = "Inicio";
+            text.innerHTML = "Início";
         }
         else if (elementId === "h"){
-            text.innerHTML = "Historia";
+            text.innerHTML = "História";
         }
         else if (elementId === "e"){
-            text.innerHTML = "Motor";
+            text.innerHTML = "Construtoras";
         }
         else if (elementId === "r"){
-            text.innerHTML = "Resto da Página";
+            text.innerHTML = "PitStops";
         }
         
         // transition its opacity to 1 and translate it to the right on the span of 0.5s
