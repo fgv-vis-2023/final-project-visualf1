@@ -11,7 +11,7 @@ const camera = new THREE.PerspectiveCamera(
   75,
   window.innerWidth / window.innerHeight,
   0.1,
-  1200
+  1000
 )
 camera.position.set(.5,1.7,7.5)
 console.log("updated bas vasco")
