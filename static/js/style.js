@@ -36,7 +36,7 @@ for (var i = 0; i < navButton.length; i++) {
         // transition its opacity to 1 and translate it to the right on the span of 0.5s
         text.style.transition = "opacity 0.5s, transform 0.5s";
         text.style.opacity = "1";
-        text.style.transform = "translateX(50%)";
+        text.style.transform = "translateX(0%)";
     });
 
     navButton[i].addEventListener("mouseout", function() {
@@ -49,7 +49,7 @@ for (var i = 0; i < navButton.length; i++) {
         // transition its opacity to 0 and translate it to the left on the span of 0.5s
         text.style.transition = "opacity 0.5s, transform 0.5s";
         text.style.opacity = "0";
-        text.style.transform = "translateX(100%)";
+        text.style.transform = "translateX(50%)";
         text.classList.remove("temporary");
         text.classList.add("remove");
         // remove the element from the DOM after the transition is done
