@@ -25,15 +25,15 @@
                 <a href="index.html"><img src="images/title.svg" width="100"></a> 
             </div>
             <div class="col button-container">
-                <h5><a href="barRaceConstructor.html" class="largepill"><em>Por construtora</em></a></h5>
+                <h5><a href="barRaceConstructor.html" class="largepill"><em>Construtora por temporada</em></a></h5>
             </div>
             <div class="col button-container">
-                <h5><a href="barRaceRaces.html" class="largepill"><em>Por corrida</em></a></h5>
+                <h5><a href="barRaceRaces.html" class="largepill"><em>Construtora por corrida</em></a></h5>
             </div>
         </div>
         
         
-        <div><h1 style="text-align: center; "> Vitórias acumuladas por piloto (1950-2022) </h1></div>
+        <div><h1 style="text-align: center; "> Vitórias em temporadas acumuladas por piloto (1950-2022) </h1></div>
         <div style="position: relative; top: 60px" class = "barrace">
             <div style="width: 100%; display: table;">
                 <div style="display: table-row;">
@@ -41,9 +41,9 @@
                         <div style="text-align: center; margin-left: 15%; margin-right: 15%; position: relative; top: -65px; color: #999999">
                             <h4> Use o botão de replay para reiniciar a animação do gráfico. </h4>
                         </div>
-                        <div style="text-align: center; position: relative; top: -60px" id="observablehq-viewof-replay-10e45c18"></div>
+                        <div style="text-align: center; position: relative; top: -60px" id="observablehq-viewof-replay-5ddb2586"></div>
                         <div class="d-flex justify-content-center">
-                            <div style="position: relative; top: -40px; width: 100%;" id="observablehq-chart-10e45c18"></div>
+                            <div style="position: relative; top: -40px; width: 100%;" id="observablehq-chart-5ddb2586"></div>
                         </div>
                     </div>
                 </div>
@@ -59,12 +59,12 @@
 
 </body>
 
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
 <script type="module">
     import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-    import define from "https://api.observablehq.com/d/857a9e9f7fe9386b@652.js?v=3";
+    import define from "https://api.observablehq.com/d/857a9e9f7fe9386b@656.js?v=3";
     new Runtime().module(define, name => {
-    if (name === "viewof replay") return new Inspector(document.querySelector("#observablehq-viewof-replay-10e45c18"));
-    if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-10e45c18"));
+    if (name === "viewof replay") return new Inspector(document.querySelector("#observablehq-viewof-replay-5ddb2586"));
+    if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-5ddb2586"));
     });
 </script>

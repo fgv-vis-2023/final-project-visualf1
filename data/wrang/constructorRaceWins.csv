@@ -1,77 +1,77 @@
 year,constructorName,wins_cum
 1950,Alfa Romeo,6.0
-1951,Alfa Romeo,11.0
-1952,Alfa Romeo,11.0
-1953,Alfa Romeo,11.0
-1954,Alfa Romeo,11.0
-1955,Alfa Romeo,11.0
-1956,Alfa Romeo,11.0
-1957,Alfa Romeo,11.0
-1958,Alfa Romeo,11.0
-1959,Alfa Romeo,11.0
-1960,Alfa Romeo,11.0
-1961,Alfa Romeo,11.0
-1962,Alfa Romeo,11.0
-1963,Alfa Romeo,11.0
-1964,Alfa Romeo,11.0
-1965,Alfa Romeo,11.0
-1966,Alfa Romeo,11.0
-1967,Alfa Romeo,11.0
-1968,Alfa Romeo,11.0
-1969,Alfa Romeo,11.0
-1970,Alfa Romeo,11.0
-1971,Alfa Romeo,11.0
-1972,Alfa Romeo,11.0
-1973,Alfa Romeo,11.0
-1974,Alfa Romeo,11.0
-1975,Alfa Romeo,11.0
-1976,Alfa Romeo,11.0
-1977,Alfa Romeo,11.0
-1978,Alfa Romeo,11.0
-1979,Alfa Romeo,11.0
-1980,Alfa Romeo,11.0
-1981,Alfa Romeo,11.0
-1982,Alfa Romeo,11.0
-1983,Alfa Romeo,11.0
-1984,Alfa Romeo,11.0
-1985,Alfa Romeo,11.0
-1986,Alfa Romeo,11.0
-1987,Alfa Romeo,11.0
-1988,Alfa Romeo,11.0
-1989,Alfa Romeo,11.0
-1990,Alfa Romeo,11.0
-1991,Alfa Romeo,11.0
-1992,Alfa Romeo,11.0
-1993,Alfa Romeo,11.0
-1994,Alfa Romeo,11.0
-1995,Alfa Romeo,11.0
-1996,Alfa Romeo,11.0
-1997,Alfa Romeo,11.0
-1998,Alfa Romeo,11.0
-1999,Alfa Romeo,11.0
-2000,Alfa Romeo,11.0
-2001,Alfa Romeo,11.0
-2002,Alfa Romeo,11.0
-2003,Alfa Romeo,11.0
-2004,Alfa Romeo,11.0
-2005,Alfa Romeo,11.0
-2006,Alfa Romeo,11.0
-2007,Alfa Romeo,11.0
-2008,Alfa Romeo,11.0
-2009,Alfa Romeo,11.0
-2010,Alfa Romeo,11.0
-2011,Alfa Romeo,11.0
-2012,Alfa Romeo,11.0
-2013,Alfa Romeo,11.0
-2014,Alfa Romeo,11.0
-2015,Alfa Romeo,11.0
-2016,Alfa Romeo,11.0
-2017,Alfa Romeo,11.0
-2018,Alfa Romeo,11.0
-2019,Alfa Romeo,11.0
-2020,Alfa Romeo,11.0
-2021,Alfa Romeo,11.0
-2022,Alfa Romeo,11.0
+1951,Alfa Romeo,10.0
+1952,Alfa Romeo,10.0
+1953,Alfa Romeo,10.0
+1954,Alfa Romeo,10.0
+1955,Alfa Romeo,10.0
+1956,Alfa Romeo,10.0
+1957,Alfa Romeo,10.0
+1958,Alfa Romeo,10.0
+1959,Alfa Romeo,10.0
+1960,Alfa Romeo,10.0
+1961,Alfa Romeo,10.0
+1962,Alfa Romeo,10.0
+1963,Alfa Romeo,10.0
+1964,Alfa Romeo,10.0
+1965,Alfa Romeo,10.0
+1966,Alfa Romeo,10.0
+1967,Alfa Romeo,10.0
+1968,Alfa Romeo,10.0
+1969,Alfa Romeo,10.0
+1970,Alfa Romeo,10.0
+1971,Alfa Romeo,10.0
+1972,Alfa Romeo,10.0
+1973,Alfa Romeo,10.0
+1974,Alfa Romeo,10.0
+1975,Alfa Romeo,10.0
+1976,Alfa Romeo,10.0
+1977,Alfa Romeo,10.0
+1978,Alfa Romeo,10.0
+1979,Alfa Romeo,10.0
+1980,Alfa Romeo,10.0
+1981,Alfa Romeo,10.0
+1982,Alfa Romeo,10.0
+1983,Alfa Romeo,10.0
+1984,Alfa Romeo,10.0
+1985,Alfa Romeo,10.0
+1986,Alfa Romeo,10.0
+1987,Alfa Romeo,10.0
+1988,Alfa Romeo,10.0
+1989,Alfa Romeo,10.0
+1990,Alfa Romeo,10.0
+1991,Alfa Romeo,10.0
+1992,Alfa Romeo,10.0
+1993,Alfa Romeo,10.0
+1994,Alfa Romeo,10.0
+1995,Alfa Romeo,10.0
+1996,Alfa Romeo,10.0
+1997,Alfa Romeo,10.0
+1998,Alfa Romeo,10.0
+1999,Alfa Romeo,10.0
+2000,Alfa Romeo,10.0
+2001,Alfa Romeo,10.0
+2002,Alfa Romeo,10.0
+2003,Alfa Romeo,10.0
+2004,Alfa Romeo,10.0
+2005,Alfa Romeo,10.0
+2006,Alfa Romeo,10.0
+2007,Alfa Romeo,10.0
+2008,Alfa Romeo,10.0
+2009,Alfa Romeo,10.0
+2010,Alfa Romeo,10.0
+2011,Alfa Romeo,10.0
+2012,Alfa Romeo,10.0
+2013,Alfa Romeo,10.0
+2014,Alfa Romeo,10.0
+2015,Alfa Romeo,10.0
+2016,Alfa Romeo,10.0
+2017,Alfa Romeo,10.0
+2018,Alfa Romeo,10.0
+2019,Alfa Romeo,10.0
+2020,Alfa Romeo,10.0
+2021,Alfa Romeo,10.0
+2022,Alfa Romeo,10.0
 1950,AlphaTauri,0.0
 1951,AlphaTauri,0.0
 1952,AlphaTauri,0.0
@@ -142,9 +142,9 @@ year,constructorName,wins_cum
 2017,AlphaTauri,0.0
 2018,AlphaTauri,0.0
 2019,AlphaTauri,0.0
-2020,AlphaTauri,2.0
-2021,AlphaTauri,2.0
-2022,AlphaTauri,2.0
+2020,AlphaTauri,1.0
+2021,AlphaTauri,1.0
+2022,AlphaTauri,1.0
 1950,Alpine F1 Team,0.0
 1951,Alpine F1 Team,0.0
 1952,Alpine F1 Team,0.0
@@ -216,8 +216,8 @@ year,constructorName,wins_cum
 2018,Alpine F1 Team,0.0
 2019,Alpine F1 Team,0.0
 2020,Alpine F1 Team,0.0
-2021,Alpine F1 Team,3.0
-2022,Alpine F1 Team,3.0
+2021,Alpine F1 Team,1.0
+2022,Alpine F1 Team,1.0
 1950,BMW Sauber,0.0
 1951,BMW Sauber,0.0
 1952,BMW Sauber,0.0
@@ -1173,73 +1173,73 @@ year,constructorName,wins_cum
 1953,Ferrari,17.0
 1954,Ferrari,19.0
 1955,Ferrari,20.0
-1956,Ferrari,26.0
-1957,Ferrari,26.0
-1958,Ferrari,28.0
-1959,Ferrari,30.0
-1960,Ferrari,31.0
-1961,Ferrari,36.0
-1962,Ferrari,36.0
-1963,Ferrari,37.0
-1964,Ferrari,40.0
-1965,Ferrari,40.0
-1966,Ferrari,42.0
-1967,Ferrari,42.0
-1968,Ferrari,43.0
-1969,Ferrari,43.0
-1970,Ferrari,47.0
-1971,Ferrari,49.0
-1972,Ferrari,50.0
-1973,Ferrari,50.0
-1974,Ferrari,53.0
-1975,Ferrari,59.0
-1976,Ferrari,65.0
-1977,Ferrari,69.0
-1978,Ferrari,74.0
-1979,Ferrari,80.0
-1980,Ferrari,80.0
-1981,Ferrari,82.0
-1982,Ferrari,85.0
-1983,Ferrari,89.0
-1984,Ferrari,90.0
-1985,Ferrari,92.0
-1986,Ferrari,92.0
-1987,Ferrari,94.0
-1988,Ferrari,95.0
-1989,Ferrari,98.0
-1990,Ferrari,104.0
-1991,Ferrari,104.0
-1992,Ferrari,104.0
-1993,Ferrari,104.0
-1994,Ferrari,105.0
-1995,Ferrari,106.0
-1996,Ferrari,109.0
-1997,Ferrari,114.0
-1998,Ferrari,120.0
-1999,Ferrari,126.0
-2000,Ferrari,136.0
-2001,Ferrari,145.0
-2002,Ferrari,160.0
-2003,Ferrari,168.0
-2004,Ferrari,183.0
-2005,Ferrari,184.0
-2006,Ferrari,193.0
-2007,Ferrari,202.0
-2008,Ferrari,210.0
-2009,Ferrari,211.0
-2010,Ferrari,216.0
-2011,Ferrari,219.0
-2012,Ferrari,226.0
-2013,Ferrari,233.0
-2014,Ferrari,233.0
-2015,Ferrari,241.0
-2016,Ferrari,241.0
-2017,Ferrari,250.0
-2018,Ferrari,258.0
-2019,Ferrari,261.0
-2020,Ferrari,261.0
-2021,Ferrari,261.0
-2022,Ferrari,271.0
+1956,Ferrari,25.0
+1957,Ferrari,25.0
+1958,Ferrari,27.0
+1959,Ferrari,29.0
+1960,Ferrari,30.0
+1961,Ferrari,35.0
+1962,Ferrari,35.0
+1963,Ferrari,36.0
+1964,Ferrari,39.0
+1965,Ferrari,39.0
+1966,Ferrari,41.0
+1967,Ferrari,41.0
+1968,Ferrari,42.0
+1969,Ferrari,42.0
+1970,Ferrari,46.0
+1971,Ferrari,48.0
+1972,Ferrari,49.0
+1973,Ferrari,49.0
+1974,Ferrari,52.0
+1975,Ferrari,58.0
+1976,Ferrari,64.0
+1977,Ferrari,68.0
+1978,Ferrari,73.0
+1979,Ferrari,79.0
+1980,Ferrari,79.0
+1981,Ferrari,81.0
+1982,Ferrari,84.0
+1983,Ferrari,88.0
+1984,Ferrari,89.0
+1985,Ferrari,91.0
+1986,Ferrari,91.0
+1987,Ferrari,93.0
+1988,Ferrari,94.0
+1989,Ferrari,97.0
+1990,Ferrari,103.0
+1991,Ferrari,103.0
+1992,Ferrari,103.0
+1993,Ferrari,103.0
+1994,Ferrari,104.0
+1995,Ferrari,105.0
+1996,Ferrari,108.0
+1997,Ferrari,113.0
+1998,Ferrari,119.0
+1999,Ferrari,125.0
+2000,Ferrari,135.0
+2001,Ferrari,144.0
+2002,Ferrari,159.0
+2003,Ferrari,167.0
+2004,Ferrari,182.0
+2005,Ferrari,183.0
+2006,Ferrari,192.0
+2007,Ferrari,201.0
+2008,Ferrari,209.0
+2009,Ferrari,210.0
+2010,Ferrari,215.0
+2011,Ferrari,216.0
+2012,Ferrari,219.0
+2013,Ferrari,221.0
+2014,Ferrari,221.0
+2015,Ferrari,224.0
+2016,Ferrari,224.0
+2017,Ferrari,229.0
+2018,Ferrari,235.0
+2019,Ferrari,238.0
+2020,Ferrari,238.0
+2021,Ferrari,238.0
+2022,Ferrari,242.0
 1950,Hesketh,0.0
 1951,Hesketh,0.0
 1952,Hesketh,0.0
@@ -1741,16 +1741,16 @@ year,constructorName,wins_cum
 2010,Lotus F1,0.0
 2011,Lotus F1,0.0
 2012,Lotus F1,1.0
-2013,Lotus F1,3.0
-2014,Lotus F1,3.0
-2015,Lotus F1,3.0
-2016,Lotus F1,3.0
-2017,Lotus F1,3.0
-2018,Lotus F1,3.0
-2019,Lotus F1,3.0
-2020,Lotus F1,3.0
-2021,Lotus F1,3.0
-2022,Lotus F1,3.0
+2013,Lotus F1,2.0
+2014,Lotus F1,2.0
+2015,Lotus F1,2.0
+2016,Lotus F1,2.0
+2017,Lotus F1,2.0
+2018,Lotus F1,2.0
+2019,Lotus F1,2.0
+2020,Lotus F1,2.0
+2021,Lotus F1,2.0
+2022,Lotus F1,2.0
 1950,Lotus-BRM,0.0
 1951,Lotus-BRM,0.0
 1952,Lotus-BRM,0.0
@@ -2250,18 +2250,18 @@ year,constructorName,wins_cum
 2008,McLaren,158.0
 2009,McLaren,160.0
 2010,McLaren,165.0
-2011,McLaren,185.0
-2012,McLaren,196.0
-2013,McLaren,196.0
-2014,McLaren,196.0
-2015,McLaren,196.0
-2016,McLaren,196.0
-2017,McLaren,196.0
-2018,McLaren,196.0
-2019,McLaren,196.0
-2020,McLaren,196.0
-2021,McLaren,197.0
-2022,McLaren,197.0
+2011,McLaren,171.0
+2012,McLaren,178.0
+2013,McLaren,178.0
+2014,McLaren,178.0
+2015,McLaren,178.0
+2016,McLaren,178.0
+2017,McLaren,178.0
+2018,McLaren,178.0
+2019,McLaren,178.0
+2020,McLaren,178.0
+2021,McLaren,179.0
+2022,McLaren,179.0
 1950,McLaren-Ford,0.0
 1951,McLaren-Ford,0.0
 1952,McLaren-Ford,0.0
@@ -2397,17 +2397,17 @@ year,constructorName,wins_cum
 2009,Mercedes,9.0
 2010,Mercedes,9.0
 2011,Mercedes,9.0
-2012,Mercedes,11.0
-2013,Mercedes,18.0
-2014,Mercedes,51.0
-2015,Mercedes,78.0
-2016,Mercedes,115.0
-2017,Mercedes,135.0
-2018,Mercedes,147.0
-2019,Mercedes,168.0
-2020,Mercedes,193.0
-2021,Mercedes,214.0
-2022,Mercedes,216.0
+2012,Mercedes,10.0
+2013,Mercedes,13.0
+2014,Mercedes,29.0
+2015,Mercedes,45.0
+2016,Mercedes,64.0
+2017,Mercedes,76.0
+2018,Mercedes,87.0
+2019,Mercedes,102.0
+2020,Mercedes,115.0
+2021,Mercedes,124.0
+2022,Mercedes,125.0
 1950,Penske,0.0
 1951,Penske,0.0
 1952,Penske,0.0
@@ -2624,9 +2624,9 @@ year,constructorName,wins_cum
 2017,Racing Point,0.0
 2018,Racing Point,0.0
 2019,Racing Point,0.0
-2020,Racing Point,2.0
-2021,Racing Point,2.0
-2022,Racing Point,2.0
+2020,Racing Point,1.0
+2021,Racing Point,1.0
+2022,Racing Point,1.0
 1950,Red Bull,0.0
 1951,Red Bull,0.0
 1952,Red Bull,0.0
@@ -2688,18 +2688,18 @@ year,constructorName,wins_cum
 2008,Red Bull,0.0
 2009,Red Bull,6.0
 2010,Red Bull,15.0
-2011,Red Bull,47.0
-2012,Red Bull,60.0
-2013,Red Bull,88.0
-2014,Red Bull,95.0
-2015,Red Bull,95.0
-2016,Red Bull,99.0
-2017,Red Bull,105.0
-2018,Red Bull,111.0
-2019,Red Bull,120.0
-2020,Red Bull,123.0
-2021,Red Bull,143.0
-2022,Red Bull,175.0
+2011,Red Bull,27.0
+2012,Red Bull,34.0
+2013,Red Bull,47.0
+2014,Red Bull,50.0
+2015,Red Bull,50.0
+2016,Red Bull,52.0
+2017,Red Bull,55.0
+2018,Red Bull,59.0
+2019,Red Bull,62.0
+2020,Red Bull,64.0
+2021,Red Bull,75.0
+2022,Red Bull,92.0
 1950,Renault,0.0
 1951,Renault,0.0
 1952,Renault,0.0
@@ -3145,72 +3145,72 @@ year,constructorName,wins_cum
 1954,Vanwall,0.0
 1955,Vanwall,0.0
 1956,Vanwall,0.0
-1957,Vanwall,4.0
-1958,Vanwall,10.0
-1959,Vanwall,10.0
-1960,Vanwall,10.0
-1961,Vanwall,10.0
-1962,Vanwall,10.0
-1963,Vanwall,10.0
-1964,Vanwall,10.0
-1965,Vanwall,10.0
-1966,Vanwall,10.0
-1967,Vanwall,10.0
-1968,Vanwall,10.0
-1969,Vanwall,10.0
-1970,Vanwall,10.0
-1971,Vanwall,10.0
-1972,Vanwall,10.0
-1973,Vanwall,10.0
-1974,Vanwall,10.0
-1975,Vanwall,10.0
-1976,Vanwall,10.0
-1977,Vanwall,10.0
-1978,Vanwall,10.0
-1979,Vanwall,10.0
-1980,Vanwall,10.0
-1981,Vanwall,10.0
-1982,Vanwall,10.0
-1983,Vanwall,10.0
-1984,Vanwall,10.0
-1985,Vanwall,10.0
-1986,Vanwall,10.0
-1987,Vanwall,10.0
-1988,Vanwall,10.0
-1989,Vanwall,10.0
-1990,Vanwall,10.0
-1991,Vanwall,10.0
-1992,Vanwall,10.0
-1993,Vanwall,10.0
-1994,Vanwall,10.0
-1995,Vanwall,10.0
-1996,Vanwall,10.0
-1997,Vanwall,10.0
-1998,Vanwall,10.0
-1999,Vanwall,10.0
-2000,Vanwall,10.0
-2001,Vanwall,10.0
-2002,Vanwall,10.0
-2003,Vanwall,10.0
-2004,Vanwall,10.0
-2005,Vanwall,10.0
-2006,Vanwall,10.0
-2007,Vanwall,10.0
-2008,Vanwall,10.0
-2009,Vanwall,10.0
-2010,Vanwall,10.0
-2011,Vanwall,10.0
-2012,Vanwall,10.0
-2013,Vanwall,10.0
-2014,Vanwall,10.0
-2015,Vanwall,10.0
-2016,Vanwall,10.0
-2017,Vanwall,10.0
-2018,Vanwall,10.0
-2019,Vanwall,10.0
-2020,Vanwall,10.0
-2021,Vanwall,10.0
-2022,Vanwall,10.0
+1957,Vanwall,3.0
+1958,Vanwall,9.0
+1959,Vanwall,9.0
+1960,Vanwall,9.0
+1961,Vanwall,9.0
+1962,Vanwall,9.0
+1963,Vanwall,9.0
+1964,Vanwall,9.0
+1965,Vanwall,9.0
+1966,Vanwall,9.0
+1967,Vanwall,9.0
+1968,Vanwall,9.0
+1969,Vanwall,9.0
+1970,Vanwall,9.0
+1971,Vanwall,9.0
+1972,Vanwall,9.0
+1973,Vanwall,9.0
+1974,Vanwall,9.0
+1975,Vanwall,9.0
+1976,Vanwall,9.0
+1977,Vanwall,9.0
+1978,Vanwall,9.0
+1979,Vanwall,9.0
+1980,Vanwall,9.0
+1981,Vanwall,9.0
+1982,Vanwall,9.0
+1983,Vanwall,9.0
+1984,Vanwall,9.0
+1985,Vanwall,9.0
+1986,Vanwall,9.0
+1987,Vanwall,9.0
+1988,Vanwall,9.0
+1989,Vanwall,9.0
+1990,Vanwall,9.0
+1991,Vanwall,9.0
+1992,Vanwall,9.0
+1993,Vanwall,9.0
+1994,Vanwall,9.0
+1995,Vanwall,9.0
+1996,Vanwall,9.0
+1997,Vanwall,9.0
+1998,Vanwall,9.0
+1999,Vanwall,9.0
+2000,Vanwall,9.0
+2001,Vanwall,9.0
+2002,Vanwall,9.0
+2003,Vanwall,9.0
+2004,Vanwall,9.0
+2005,Vanwall,9.0
+2006,Vanwall,9.0
+2007,Vanwall,9.0
+2008,Vanwall,9.0
+2009,Vanwall,9.0
+2010,Vanwall,9.0
+2011,Vanwall,9.0
+2012,Vanwall,9.0
+2013,Vanwall,9.0
+2014,Vanwall,9.0
+2015,Vanwall,9.0
+2016,Vanwall,9.0
+2017,Vanwall,9.0
+2018,Vanwall,9.0
+2019,Vanwall,9.0
+2020,Vanwall,9.0
+2021,Vanwall,9.0
+2022,Vanwall,9.0
 1950,Watson,0.0
 1951,Watson,0.0
 1952,Watson,0.0
@@ -3346,17 +3346,17 @@ year,constructorName,wins_cum
 2009,Williams,113.0
 2010,Williams,113.0
 2011,Williams,113.0
-2012,Williams,116.0
-2013,Williams,116.0
-2014,Williams,116.0
-2015,Williams,116.0
-2016,Williams,116.0
-2017,Williams,116.0
-2018,Williams,116.0
-2019,Williams,116.0
-2020,Williams,116.0
-2021,Williams,116.0
-2022,Williams,116.0
+2012,Williams,114.0
+2013,Williams,114.0
+2014,Williams,114.0
+2015,Williams,114.0
+2016,Williams,114.0
+2017,Williams,114.0
+2018,Williams,114.0
+2019,Williams,114.0
+2020,Williams,114.0
+2021,Williams,114.0
+2022,Williams,114.0
 1950,Wolf,0.0
 1951,Wolf,0.0
 1952,Wolf,0.0
