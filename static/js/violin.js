@@ -142,15 +142,6 @@ function updateGraph(selectedYear, selectedCorrida) {
         .interpolator(d3.interpolateInferno)
         .domain([3, 9]);
 
-    var tooltip = d3.select("body")
-        .selectAll(".tooltip")
-        .data([null])
-        .enter()
-        .append("div")
-        .attr("class", "tooltip")
-        .style("opacity", 0);
-    
-
     svg.append("text")
         .attr("class", "x-axis-label")
         .attr("x", width / 2 + 150)
@@ -204,28 +195,20 @@ function updateGraph(selectedYear, selectedCorrida) {
         .style("fill", "#FA3131")
         .attr("stroke", "white")
     .on("mouseover", function(event, d) {
-      // Show the tooltip and update its content
-      tooltip.transition()
-        .duration(200)
-        .style("opacity", 0.9);
-      tooltip.html("Position: " + d.position)
-        .style("left", (event.pageX + 10) + "px")
-        .style("top", (event.pageY + 10) + "px");
-
       // Increase the size of the circle on mouseover
       d3.select(this).attr("r", 6);
       d3.select(this).attr("stroke", "yellow");
+
     })
     // Add mouseout event listener
     .on("mouseout", function() {
-      // Hide the tooltip
-      tooltip.transition()
-        .duration(200)
-        .style("opacity", 0);
-
       // Reset the size of the circle on mouseout
       d3.select(this).attr("r", 3);
       d3.select(this).attr("stroke", "white");
+    })
+    .append("title")
+    .text(function(d) {
+        return "Tempo: " + d.duration + "s" + "\n" + "Piloto: " + d.driverFullname + "\n" +  "Posição final: " + d.position + "º";
     });
 
     });
