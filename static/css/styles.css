@@ -95,6 +95,7 @@ p {
     border-radius: 100px;
     background: var(--secondary);
     color: white;
+
 }
 
 .smallpill {
@@ -119,7 +120,7 @@ p {
     position: fixed;
     display: flex;
     flex-direction: column;
-    left: 48vw;
+    left: 50vw;
     text-align: center;
 }
 
@@ -130,6 +131,7 @@ nav {
     margin-top: 10px;
     background-color: #000000;
     border: 1px solid white;
+    transform: translate(-50%, 0%);
 }
 
 nav > a {
