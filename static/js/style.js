@@ -32,6 +32,9 @@ for (var i = 0; i < navButton.length; i++) {
         else if (elementId === "r"){
             text.innerHTML = "PitStops";
         }
+        else if (elementId === "f"){
+            text.innerHTML = "Pilotos";
+        }
         
         // transition its opacity to 1 and translate it to the right on the span of 0.5s
         text.style.transition = "opacity 0.5s, transform 0.5s";
@@ -76,6 +79,9 @@ for (var i = 0; i < navButton.length; i++) {
         }
         else if (elementId === "r"){
             car.style.transform = "translateX(144px)";
+        }
+        else if (elementId === "f"){
+            car.style.transform = "translateX(192px)";
         }
 
 

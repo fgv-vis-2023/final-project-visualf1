@@ -87,9 +87,6 @@ function onWindowResize() {
   render()
 }
 
-const stats = new Stats()
-doc.appendChild(stats.dom)
-
 function animate() {
   requestAnimationFrame(animate)
 

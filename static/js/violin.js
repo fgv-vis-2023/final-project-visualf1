@@ -208,7 +208,7 @@ function updateGraph(selectedYear, selectedCorrida) {
     })
     .append("title")
     .text(function(d) {
-        return "Tempo: " + d.duration + "s" + "\n" + "Piloto: " + d.driverFullname + "\n" +  "Posição final: " + d.position + "º";
+        return "Tempo: " + d.duration + "s" + "\n" + "Piloto: " + d.driverFullname + "\n" +  "Posição final: " + d.position + "º \n"+  parseInt(d.stop) + "ª parada da corrida" ;
     });
 
     });
