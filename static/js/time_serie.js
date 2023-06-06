@@ -44,7 +44,6 @@ function updateDriverList(year) {
     console.log(year_data);
 
     let driverList = year_data[year];
-
     for (let i = 0; i < driverList.length; i++) {
         let driver = driverList[i];
         let opt = document.createElement("a");
@@ -56,6 +55,8 @@ function updateDriverList(year) {
             event.preventDefault(); // Prevent the default link behavior
             console.log('Selected driver:', driver);
             drawDriverChart(driver, year);
+            document.getElementById("driver-value").innerHTML = driver;
+            document.getElementById("year-value").innerHTML = year;
         });
         dropdownPilot.appendChild(opt);
     }
@@ -162,6 +163,6 @@ function drawDriverChart(driver, year) {
 
 }
 
-drawDriverChart("Max Verstappen", 2021);
+drawDriverChart("Max Verstappen", 2022);
 
 
