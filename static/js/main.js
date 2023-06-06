@@ -1,7 +1,7 @@
 import * as THREE from "three"
 import { GLTFLoader } from "three/addons/loaders/GLTFLoader"
 import { OrbitControls } from "three/addons/controls/OrbitControls"
-import Stats from "three/addons/libs/stats.module"
+
 
 const scene = new THREE.Scene()
 // scene.add(new THREE.AxesHelper(5))
@@ -26,29 +26,15 @@ doc.appendChild(renderer.domElement)
 const controls = new OrbitControls(camera, renderer.domElement)
 controls.enableDamping = true
 
-
-const Light = new THREE.AmbientLight(0xffffff, 2)
+console.log("update vasco 5")
+const Light = new THREE.AmbientLight(0xffffff, 4)
 scene.add(Light)
-let spotLight = new THREE.SpotLight(0xffffff,1);
-spotLight.position.set(1, 1, 1);
+let spotLight = new THREE.SpotLight(0xffffff,50);
+spotLight.position.set(5, 2, 2);
 scene.add(spotLight);
 
 // key i +intensity j -intensity
-window.addEventListener("keydown", onDocumentKeyDown, false);
-function onDocumentKeyDown(event) {
-  var keyCode = event.which;
-  if (keyCode == 73) {
-    //i
-    intensity += 0.1;
-    console.log(intensity);
-    spotLight.intensity = intensity;
-  } else if (keyCode == 74) {
-    //j
-    intensity -= 0.1;
-    console.log(intensity);
-    spotLight.intensity = intensity;
-  }
-}
+
 
 
 const loader = new GLTFLoader()
@@ -93,8 +79,6 @@ function animate() {
   controls.update()
 
   render()
-
-  stats.update()
 }
 
 function render() {

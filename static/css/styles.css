@@ -194,6 +194,10 @@ section {
     right: 0 !important;
 }
 
+#spacing {
+    min-width: 12vw;
+}
+
 #title {
     height: 440px;
     margin: 0 25px 25px -2vh;
