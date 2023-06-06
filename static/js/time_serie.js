@@ -3,7 +3,7 @@ var year_data = null;
 
 const tParser = d3.timeParse("%Y-%m-%d");
 
-var margin = {top: 20, right: 40, bottom: 60, left: 100},
+var margin = {top: 20, right: 120, bottom: 60, left: 100},
     width = 1000 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
     height_added = 500 - margin.top - margin.bottom +30;
