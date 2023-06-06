@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Visual F1 - PitStops</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&family=Stalemate&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--scripts-->
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+    
+
+    <!--css-->
+    <link rel="stylesheet" href="static/css/pitStop.css">
+    <link rel="icon" href="images/icon.png">
+</head>
+
+<body>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <a href="index.html"><img src="images/title.svg" width="100"></a> 
+                </div>
+                <div class="main-right col-md-10">
+                    <br>
+                    <h1>Desempenho individual: colocações na série temporal</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="main-left col-md-10">
+                    <div id="viz-time-series"></div>
+                </div >
+
+                <div class="main-right col-md-2">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Ano
+                        </button>
+                        <div class="dropdown-menu" id="dropdown-dyear" role="menu" style="max-height: 280px; overflow-y: auto;">
+
+                        </div>
+                      </div>
+
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Piloto
+                        </button>
+                        <div class="dropdown-menu" id="dropdown-dpilot" role="menu" style="max-height: 280px; overflow-y: auto;">
+                        </div>
+                      </div>
+
+                      <div>
+                        <br>
+                        <div class="card w-100">
+                            <div class="card-body">
+                              <h5 class="card-title">Série temporal</h5>
+                              <p class="card-text">Selecione um ano e em seguida um piloto para visualizar sua performance naquela temporada!</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="card w-100">
+                            <div class="card-body">
+                              <h5 class="card-title">Temporada: <span id="year-value"></span></h5>
+                              <p class="card-text-b">Piloto: <span id="driver-value"></span> </p>
+                              <p class="card-text"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <button type="button" class="btn btn-danger btn-circle btn-xl" onClick="document.getElementById('middle').scrollIntoView();"> 
+                          <img width="50" height="50" src="https://img.icons8.com/plasticine/100/circled-down-2.png" alt="circled-down-2"/>                        </button>
+
+                      </div>
+                </div>
+            </div>
+            <div id="tooltip" class="tooltip" title="oi"></div>
+
+        <script src="static/js/time_serie.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
