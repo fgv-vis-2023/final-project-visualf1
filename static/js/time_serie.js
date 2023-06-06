@@ -3,7 +3,7 @@ var year_data = null;
 
 const tParser = d3.timeParse("%Y-%m-%d");
 
-var margin = {top: 10, right: 30, bottom: 30, left: 90},
+var margin = {top: 20, right: 40, bottom: 60, left: 100},
     width = 1000 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
     height_added = 500 - margin.top - margin.bottom +30;
@@ -127,7 +127,30 @@ function drawDriverChart(driver, year) {
                 ) })
             )
 
+        svg.append("text")
+            .attr("x", (width / 2))
+            .attr("y", 0 - (margin.top / 2) + 10)
+            .attr("text-anchor", "middle")
+            .style("font-size", "16px")
+            .style("fill", "white")
+            .text(driver + " - " + year);
+
+        svg.append("text")
+            .attr("class", "x-axis-label")
+            .attr("x", width  / 2)
+            .attr("y", height + margin.bottom - 20)
+            .attr("text-anchor", "middle")
+            .text("Tempo");
     
+        // Add legend for y-axis
+        svg.append("text")
+            .attr("class", "y-axis-label")
+            .attr("transform", "rotate(-90)")
+            .attr("x", -(height + margin.top) / 2 +10)
+            .attr("y", -margin.left + 40)
+            .attr("dy", "1em")
+            .attr("text-anchor", "middle")
+            .text("Pontos");
             
 
 
@@ -139,6 +162,6 @@ function drawDriverChart(driver, year) {
 
 }
 
-
+drawDriverChart("Max Verstappen", 2021);
 
 
