@@ -129,14 +129,6 @@ function drawDriverChart(driver, year) {
             )
 
         svg.append("text")
-            .attr("x", (width / 2))
-            .attr("y", 0 - (margin.top / 2) + 10)
-            .attr("text-anchor", "middle")
-            .style("font-size", "16px")
-            .style("fill", "white")
-            .text(driver + " - " + year);
-
-        svg.append("text")
             .attr("class", "x-axis-label")
             .attr("x", width  / 2)
             .attr("y", height + margin.bottom - 20)
