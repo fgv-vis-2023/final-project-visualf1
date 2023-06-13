@@ -284,3 +284,13 @@ footer > div > p {
     color: var(--accent);
     text-decoration: none;
 }
+
+
+.image-timeline{
+    position: relative;
+  }
+.image-timeline a{
+    display: block;      
+    position: absolute;
+  }
+  

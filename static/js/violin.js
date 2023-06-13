@@ -69,6 +69,7 @@ function updateGraph(selectedYear, selectedCorrida) {
     d3.csv("https://raw.githubusercontent.com/felipelmc/Formula1-Viz/main/times.csv", function(data) {
 
     var data = data.filter(function(d) {
+        if (selectedCorrida === "Todas") selectedCorrida = null;
         return d.year === selectedYear && (selectedCorrida === null || d.raceName === selectedCorrida);
     });
     
