@@ -41,6 +41,13 @@ h5 {
   font-weight: bold;
 }
 
+h6 {
+  color: #FFFFFF;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+
 p {
   font-weight: 400;
   font-size: 18px;
@@ -48,6 +55,9 @@ p {
   color: var(--text);
 }
 
+.justified {
+  text-align: justify;
+}
 
 .x-axis-label {
   fill: white; /* Legend text color */
@@ -94,6 +104,17 @@ p {
   color: white;
 }
 
+.smallpill {
+  padding: 3px 10px 3px 10px;
+  border: none;
+  white-space: nowrap;
+  text-decoration: none;
+  border-radius: 20px;
+  background: var(--secondary);
+  color: white;
+}
+
+
 .dark-article {
   padding: 15px;
   margin-top: 30px;
@@ -101,5 +122,30 @@ p {
   background-color: #731500;
   border-radius: 10px;
   color: snow;
+}
+
+
+#us {
+  border-radius: 50%;
+}
+
+figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+}
+
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
