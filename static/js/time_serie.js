@@ -76,7 +76,7 @@ function drawDriverChart(driver, year) {
 
         //clear previous chart
         d3.select("#viz-time-series").selectAll("svg").remove();
-        
+
         var svg = d3.select("#viz-time-series")
         .append("svg")
           .attr("width", width + margin.left + margin.right)
@@ -85,21 +85,34 @@ function drawDriverChart(driver, year) {
           .attr("transform",
                 "translate(" + margin.left + "," + margin.top + ")");
 
+        // adds a little bit of space between start of line and y-axis
+        
         var x = d3.scaleTime()
             .domain(d3.extent(new_data, function(d) { return tParser(d.date); }))
-            .range([ 0, width ]);
+            .range([ 10, width ]);
         svg.append("g")
-            .attr("transform", "translate(0," + height + ")")
-            
-
+            .attr("transform", "translate(-10," + height + ")")
             .call(d3.axisBottom(x).ticks(7));
 
+        var max_points = 25;
+        if (year < 1961) {
+            max_points = 8;
+        }   else if (year < 1991) {
+            max_points = 9;
+        }    else if (year < 2010) {
+            max_points = 10;
+        }   else {
+            max_points = 25;
+        }
 
+        var num_races = new_data.length;
         var y = d3.scaleLinear()
-            .domain([0, 26])
+            .domain([0, max_points * num_races])
             .range([ height, 0 ]);
         svg.append("g")
             .call(d3.axisLeft(y));
+
+
 
         //for a black background well set the axis to white
         svg.selectAll("path")
@@ -111,7 +124,7 @@ function drawDriverChart(driver, year) {
         svg.selectAll("text")
             .attr("fill", "white");
 
-        
+        var accumulated_points = 0;
         svg.append("path")
             .datum(new_data)
             .attr("fill", "none")
@@ -119,14 +132,58 @@ function drawDriverChart(driver, year) {
             .attr("stroke-width", 1.5)
             .attr("d", d3.line()
             .x(function(d, i) { return x(
-                // tParser(d.date)
                 tParser(d.date)
                 ) })
             .y(function(d, i) { return y(
-                // parseInt(d.points)
-                parseInt(d.points)
+                accumulated_points += parseInt(d.points)
                 ) })
             )
+        var accumulated_points = 0;
+
+        var tooltip = d3.select("#viz-time-series").append("div")
+            .style("position", "absolute")
+            .style("visibility", "hidden")
+            .style("background-color", "white")
+            .style("border", "solid")
+            .style("border-width", "1px")
+            .style("border-radius", "5px")
+            .style("padding", "10px")
+
+        svg.append("g")
+            .selectAll("dot")
+            .data(new_data)
+            .enter()
+            .append("circle")
+                .attr("cx", function(d, i) { return x(
+                    tParser(d.date)
+                    ) })
+                .attr("cy", function(d, i) { return y(
+                    accumulated_points += parseInt(d.points)
+                    ) })
+                .attr("r", 4)
+                .attr("fill", "black")
+                .attr("stroke", "white")
+                .attr("stroke-width", 1.5)
+                .on("mouseenter", function(event, d) {
+                    d3.select(this).attr("r", 8);
+                    tooltip.style("visibility", "visible");
+                    let xval = this.getAttribute("cx");
+                    xval = parseInt(xval) + 100;
+                    let yval = this.getAttribute("cy");
+                    yval = parseInt(yval) - 70;
+                    console.log("hovered ");
+                    tooltip.style("top", yval + "px").style("left", xval + "px");
+                })
+                .on("mouseleave", function() {
+                    d3.select(this).attr("r", 4     );
+                    tooltip.style("visibility", "hidden");
+
+                });
+
+
+
+        
+            
 
         svg.append("text")
             .attr("class", "x-axis-label")
