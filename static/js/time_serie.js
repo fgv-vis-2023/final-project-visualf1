@@ -50,7 +50,7 @@ function updateDriverList(year) {
         opt.classList.add("dropdown-item");
         opt.classList.add("dpilot");
         opt.setAttribute("href", "#");
-        opt.innerHTML = driver;
+        opt.innerHTML = '<div class="form-check"><input class="form-check-input" type="checkbox" value="" id="Checkme1" /><label class="form-check-label" for="Checkme1">' + driver + '</label></div>';
         opt.addEventListener('click', function(event) {
             event.preventDefault(); // Prevent the default link behavior
             console.log('Selected driver:', driver);
