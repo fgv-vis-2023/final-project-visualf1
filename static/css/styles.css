@@ -293,4 +293,7 @@ footer > div > p {
     display: block;      
     position: absolute;
   }
-  
+
+#hist-image { 
+    width: 100vw;
+}
