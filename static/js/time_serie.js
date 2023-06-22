@@ -41,8 +41,8 @@ function updateYearList() {
 
 function updateDriverList(year) {
     dropdownPilot.innerHTML = "";
-    console.log(year_data);
-
+    console.log(year);
+    document.getElementById("year-value").innerHTML = year;
     let driverList = year_data[year];
     for (let i = 0; i < driverList.length; i++) {
         let driver = driverList[i];
@@ -56,7 +56,6 @@ function updateDriverList(year) {
             console.log('Selected driver:', driver);
             drawDriverChart(driver, year);
             document.getElementById("driver-value").innerHTML = driver;
-            document.getElementById("year-value").innerHTML = year;
         });
         dropdownPilot.appendChild(opt);
     }

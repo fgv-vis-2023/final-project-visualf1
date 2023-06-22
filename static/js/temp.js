@@ -46,15 +46,29 @@ var usedColors = {};
 
 function updateDriverList(year) {
     dropdownPilot.innerHTML = "";
+    document.getElementById("year-value").innerHTML = year;
     console.log(year_data);
     let driverList = year_data[year];
     let tempDriver = driverList[0];
     drawDriverChart(year, tempDriver);
     for (d in selectedDrivers) {
-        removeDriver(selectedDrivers[d]);
+        //remove driver and wait for end of function to remove the next one
+        removeDriverForLoop(selectedDrivers[d]);
     }
     selectedDrivers = [];
+
+    if (document.getElementsByClassName("card-text-b war").length === 0) {
+        let pilotDiv = document.getElementById("card-body-pilotos");
+        let p = document.createElement("p");
+        p.classList.add("card-text-b");
+        p.classList.add("war");
+        p.innerHTML = "<span id='driver-value'>Selecione um piloto</span>";
+        pilotDiv.appendChild(p);
+    }
+
     usedColors = {};
+    availableColors = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd"];
+    console.log(usedColors);
     for (let i = 0; i < driverList.length; i++) {
         let driver = driverList[i];
         let div = document.createElement("div");
@@ -101,6 +115,11 @@ function addDriver(driver) {
     p.id = driver + "-card";
     p.innerHTML = "<span id='driver-value' style='font-weight: bold;'>" + driver + ":    " + "</span><svg width='22' height='22' style='border-top:-2px' id=" + driver.replace(/\s/g, '') + "-legend></svg>";
     pilotDiv.appendChild(p);
+}
+
+function removeDriverForLoop(driver) {
+    let pilotDiv = document.getElementById(driver + "-card");
+    pilotDiv.remove();
 }
 
 function removeDriver(driver) {
@@ -261,6 +280,7 @@ function updateDriverChart(driver, year, mode){
                     accumulated_points += parseInt(d.points)
                     ) })
                 )
+            console.log(accumulated_points);
             var accumulated_points = 0;
 
             var tooltip = d3.select("#viz-time-series").append("div")
