@@ -35,12 +35,14 @@ function updateYearList() {
         opt.innerHTML = year;
         opt.addEventListener('click', function(event) {
             event.preventDefault(); // Prevent the default link behavior
-            console.log('Selected year:', year);
             updateDriverList(year);
         });
         dropdownYear.appendChild(opt);
     }
 }
+let selectedDrivers = [];
+var availableColors = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd"];
+var usedColors = {};
 
 function updateDriverList(year) {
     dropdownPilot.innerHTML = "";
@@ -64,10 +66,17 @@ function updateDriverList(year) {
             let driver = this.value;
             let checked = this.checked;
             if (checked) {
+                if (selectedDrivers.length >= 5) {
+                    alert("Você já selecionou 5 pilotos! Por favor, desmarque um piloto para selecionar outro.");
+                    this.checked = false;
+                    return;
+                }
                 updateDriverChart(driver, year, "add");
+                addDriver(driver);
             }
             if (!checked) {
                 updateDriverChart(driver, year, "remove");
+                removeDriver(driver);
             }
         });
 
@@ -75,8 +84,41 @@ function updateDriverList(year) {
     }
 }
 
+function addDriver(driver) {
+    selectedDrivers.push(driver);
+    if (selectedDrivers.length === 1) {
+        document.getElementsByClassName("card-text-b war")[0].remove();
+    }
+    let pilotDiv = document.getElementById("card-body-pilotos");
+    let p = document.createElement("p");
+    p.classList.add("card-text");
+    p.id = driver + "-card";
+    p.innerHTML = "<span id='driver-value' style='font-weight: bold;'>" + driver + "</span>";
+    pilotDiv.appendChild(p);
+}
+
+function removeDriver(driver) {
+    console.log(selectedDrivers);
+    let index = selectedDrivers.indexOf(driver);
+    delete selectedDrivers[index];
+
+    if (selectedDrivers.length === 0) {
+        let pilotDiv = document.getElementById("card-body-pilotos");
+        let p = document.createElement("p");
+        p.classList.add("card-text-b war");
+        p.innerHTML = "<span id='driver-value'>Selecione um piloto</span>";
+        pilotDiv.appendChild(p);
+    }
+    let pilotDiv = document.getElementById(driver + "-card");
+    pilotDiv.remove();
+}
+
+
+
 let x = d3.scaleTime()
 let y = d3.scaleLinear()
+
+
 function drawDriverChart(year, tempDriver) {
     d3.csv("https://raw.githubusercontent.com/fgv-vis-2023/final-project-visualf1/main/data/wrang/positions.csv", function(error,data) {
         //data
@@ -147,6 +189,23 @@ function drawDriverChart(year, tempDriver) {
             )
         var accumulated_points = 0;
 
+        svg.append("text")
+        .attr("class", "x-axis-label")
+        .attr("x", width  / 2)
+        .attr("y", height + margin.bottom - 20)
+        .attr("text-anchor", "middle")
+        .text("Tempo");
+
+        // Add legend for y-axis
+        svg.append("text")
+            .attr("class", "y-axis-label")
+            .attr("transform", "rotate(-90)")
+            .attr("x", -(height + margin.top) / 2 +10)
+            .attr("y", -margin.left + 40)
+            .attr("dy", "1em")
+            .attr("text-anchor", "middle")
+            .text("Pontos");
+
         
 
     });
@@ -167,13 +226,15 @@ function updateDriverChart(driver, year, mode){
             var svg = d3.select("#viz-time-series").select("svg").select("g").append("g").attr("id", driver);
 
 
+            let color = availableColors.pop();
+            usedColors[driver] = color;
 
             svg.selectAll("path")
                 .attr("stroke", "white");
-            
+
             svg.selectAll("line")
                 .attr("stroke", "white");
-    
+
             svg.selectAll("text")
                 .attr("fill", "white");
 
@@ -181,7 +242,7 @@ function updateDriverChart(driver, year, mode){
             svg.append("path")
                 .datum(new_data)
                 .attr("fill", "none")
-                .attr("stroke", "white")
+                .attr("stroke", color)
                 .attr("stroke-width", 1.5)
                 .attr("d", d3.line()
                 .x(function(d, i) { return x(
@@ -215,7 +276,7 @@ function updateDriverChart(driver, year, mode){
                     accumulated_points += parseInt(d.points)
                     ) })
                 .attr("r", 4)
-                .attr("fill", "black")
+                .attr("fill", color)
                 .attr("stroke", "white")
                 .attr("stroke-width", 1.5)
                 .on("mouseenter", function(d) {
@@ -240,6 +301,8 @@ function updateDriverChart(driver, year, mode){
         }
         else if(mode == "remove"){
             document.getElementById(driver).remove();
+            availableColors.push(usedColors[driver]);
+            delete usedColors[driver];
         }
         else{
             console.log("error in mode");
