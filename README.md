@@ -11,7 +11,7 @@ Após a apresentação do MVP, trabalhamos em conjunto para terminar o que falta
 ## Links importantes
 
 * [Video teaser](https://www.google.com)
-* [Artigo](../VisualF1.pdf)
+* [Artigo](https://github.com/fgv-vis-2023/final-project-visualf1/blob/main/Artigo_VisualF1.pdf)
 * [Aplicação](https://fgv-vis-2023.github.io/final-project-visualf1/)
 * [Página do projeto](https://fgv-vis-2023.github.io/final-project-visualf1/about.html)
 
