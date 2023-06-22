@@ -99,13 +99,13 @@ function addDriver(driver) {
 
 function removeDriver(driver) {
     console.log(selectedDrivers);
-    let index = selectedDrivers.indexOf(driver);
-    delete selectedDrivers[index];
+    selectedDrivers = selectedDrivers.filter(item => item !== driver);
 
     if (selectedDrivers.length === 0) {
         let pilotDiv = document.getElementById("card-body-pilotos");
         let p = document.createElement("p");
-        p.classList.add("card-text-b war");
+        p.classList.add("card-text-b");
+        p.classList.add("war");
         p.innerHTML = "<span id='driver-value'>Selecione um piloto</span>";
         pilotDiv.appendChild(p);
     }
@@ -302,7 +302,6 @@ function updateDriverChart(driver, year, mode){
         else if(mode == "remove"){
             document.getElementById(driver).remove();
             availableColors.push(usedColors[driver]);
-            delete usedColors[driver];
         }
         else{
             console.log("error in mode");
