@@ -50,6 +50,11 @@ function updateDriverList(year) {
     let driverList = year_data[year];
     let tempDriver = driverList[0];
     drawDriverChart(year, tempDriver);
+    for (d in selectedDrivers) {
+        removeDriver(selectedDrivers[d]);
+    }
+    selectedDrivers = [];
+    usedColors = {};
     for (let i = 0; i < driverList.length; i++) {
         let driver = driverList[i];
         let div = document.createElement("div");
