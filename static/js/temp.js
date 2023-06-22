@@ -92,8 +92,9 @@ function addDriver(driver) {
     let pilotDiv = document.getElementById("card-body-pilotos");
     let p = document.createElement("p");
     p.classList.add("card-text");
+    console.log(usedColors[driver]);
     p.id = driver + "-card";
-    p.innerHTML = "<span id='driver-value' style='font-weight: bold;'>" + driver + "</span>";
+    p.innerHTML = "<span id='driver-value' style='font-weight: bold;'>" + driver + ":    " + "</span><svg width='22' height='22' style='border-top:-2px' id=" + driver.replace(/\s/g, '') + "-legend></svg>";
     pilotDiv.appendChild(p);
 }
 
@@ -229,6 +230,9 @@ function updateDriverChart(driver, year, mode){
             let color = availableColors.pop();
             usedColors[driver] = color;
 
+            let legend = document.getElementById(driver.replace(/\s/g, '') + "-legend")
+            legend.innerHTML= "<circle cx='10' cy='10' r='5' fill='" + color + "'></circle>";
+
             svg.selectAll("path")
                 .attr("stroke", "white");
 
@@ -294,8 +298,6 @@ function updateDriverChart(driver, year, mode){
                 .on("mouseleave", function() {
                     d3.select(this).attr("r", 4     );
                     tooltip.style("visibility", "hidden");
-                    
-
                 });
 
         }
